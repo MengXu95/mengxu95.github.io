@@ -2,6 +2,18 @@
 main:
   - title: "Publications"
     url: /publications/
+
+  - title: "Resources"
+    url: /resources/
+
+  - title: "News"
+    url: /news/
+
+  - title: "Honours"
+    url: /honours-awards/
+
+  - title: "Activities"
+    url: /professional-activities/
     
   - title: "CV"
     url: /cv/
