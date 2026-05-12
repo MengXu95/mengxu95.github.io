@@ -24,15 +24,15 @@ author:
   avatar           : "profile.jpg"
   name             : "Meng Xu"
   pronouns         : "she/her"
-  bio              : "Scientist and Postdoctoral Research Fellow in AI Scheduling and Evolutionary Computation"
-  location         : "Singapore"
-  employer         : "A*STAR SIMTech / NTU"
+  bio              : "Professor in AI Scheduling and Evolutionary Computation"
+  location         : "Beijing, China"
+  employer         : "Beijing Institute of Technology"
   uri              : # URL
   email            : "meng.xu@ecs.vuw.ac.nz"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=zh-CN"
+  googlescholar    : "https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-9930-0403"
   researchgate     : # URL

@@ -5,19 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">Below is the publication list from this website collection. You can also find the complete and latest list on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+The complete and latest publication list is also available on <a target="_blank" href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
 
---------------------------------------------------
+**Journal and Conference Papers**
 
-{% include base_path %}
-
-# Journal and Conference
-
+<ol>
 {% for post in site.publications reversed %}
-
-  {% include archive-single.html %}
-
+<li>{{ post.citation }}{% if post.paperurl %} <a target="_blank" href="{{ post.paperurl }}">[link]</a>{% endif %}</li>
 {% endfor %}
-
+</ol>

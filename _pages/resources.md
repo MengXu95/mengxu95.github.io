@@ -18,7 +18,7 @@ author_profile: true
 **Publication Resources**
 
 <ol>
-<li>Google Scholar profile (latest papers and citations): <a target="_blank" href="https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=zh-CN">https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=zh-CN</a></li>
+<li>Google Scholar profile (latest papers and citations): <a target="_blank" href="https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en">https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en</a></li>
 <li>ORCID profile: <a target="_blank" href="https://orcid.org/0000-0002-9930-0403">https://orcid.org/0000-0002-9930-0403</a></li>
 </ol>
 
