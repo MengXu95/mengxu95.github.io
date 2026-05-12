@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Dr. Meng Xu"
+title: "Meng Xu (许萌)"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -14,15 +14,15 @@ Professor\
 
 I am a Professor in the School of Automation at Beijing Institute of Technology since April 2026. My research focuses on evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization for dynamic scheduling and decision making.
 
-Before joining Beijing Institute of Technology, I worked as a Scientist at A*STAR Singapore Institute of Manufacturing Technology (SIMTech) from July 2024 to March 2026, with a joint appointment as a Postdoctoral Research Fellow at Nanyang Technological University from October 2024 to March 2026.
+Before joining Beijing Institute of Technology, I worked as a Scientist at the Singapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Singapore, from July 2024 to March 2026, with a joint appointment as a Postdoctoral Research Fellow at Nanyang Technological University, Singapore (NTU Singapore), from October 2024 to March 2026.
 
 News
 ======
 <ul style="list-style-type: square;">
 <li><b>Apr 2026</b>: I joined the School of Automation, Beijing Institute of Technology as Professor.</li>
 <li><b>2026</b>: New works on advanced diverse partner selection, multitask genetic programming, and inventory policy optimization were added to my publication list.</li>
-<li><b>Jul 2024 - Mar 2026</b>: I worked as a Scientist at A*STAR SIMTech, Singapore.</li>
-<li><b>Oct 2024 - Mar 2026</b>: I held a joint postdoctoral appointment at NTU, supervised by Prof. Ong Yew Soon.</li>
+<li><b>Jul 2024 - Mar 2026</b>: I worked as a Scientist at the Singapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Singapore.</li>
+<li><b>Oct 2024 - Mar 2026</b>: I held a joint postdoctoral appointment at Nanyang Technological University, Singapore (NTU Singapore), supervised by Professor Yew-Soon Ong.</li>
 <li><b>Jul 2024</b>: I completed my PhD at Victoria University of Wellington, supervised by Yi Mei, Fangfang Zhang, and Mengjie Zhang.</li>
 </ul>
 
@@ -41,8 +41,8 @@ Biography
 ======
 <ul style="list-style-type: square;">
 <li><b>Apr 2026 - Present</b>: Professor, School of Automation, Beijing Institute of Technology, China.</li>
-<li><b>Jul 2024 - Mar 2026</b>: Scientist, A*STAR Singapore Institute of Manufacturing Technology (SIMTech), Singapore.</li>
-<li><b>Oct 2024 - Mar 2026</b>: Joint-appointment Postdoctoral Research Fellow, Nanyang Technological University, Singapore. Supervisor: Prof. Ong Yew Soon.</li>
+<li><b>Jul 2024 - Mar 2026</b>: Scientist, Singapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Singapore.</li>
+<li><b>Oct 2024 - Mar 2026</b>: Joint-appointment Postdoctoral Research Fellow, Nanyang Technological University, Singapore (NTU Singapore). Supervisor: Professor Yew-Soon Ong.</li>
 <li><b>Nov 2020 - Jul 2024</b>: PhD in Computer Science, Victoria University of Wellington, New Zealand. Supervisors: Yi Mei, Fangfang Zhang, and Mengjie Zhang.</li>
 <li><b>2017 - 2020</b>: MSc in Control Science and Engineering, School of Automation, Beijing Institute of Technology, China. Recommended admission for graduate study.</li>
 <li><b>2013 - 2017</b>: BSc in Automation, School of Automation, Beijing Institute of Technology, China.</li>

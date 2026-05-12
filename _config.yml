@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Meng Xu's homepage"
+title                    : "Meng Xu (许萌)"
 title_separator          : "-"
-name                     : &name "Meng Xu"
+name                     : &name "Meng Xu (许萌)"
 description              : &description "personal description"
 url                      : https://mengxu95.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,11 +22,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Meng Xu"
+  name             : "Meng Xu (许萌)"
   pronouns         : "she/her"
   bio              : "Professor in AI Scheduling and Evolutionary Computation"
   location         : "Beijing, China"
-  employer         : "Beijing Institute of Technology"
+  employer         : "School of Automation, Beijing Institute of Technology"
   uri              : # URL
   email            : "meng.xu@ecs.vuw.ac.nz"
 

@@ -22,11 +22,11 @@ Professional Experience
 * **Apr 2026 - Present: Professor, School of Automation, Beijing Institute of Technology, China**
   * Research on evolutionary computation, reinforcement learning, and intelligent optimization for scheduling and decision making.
 
-* **Jul 2024 - Mar 2026: Scientist, A*STAR Singapore Institute of Manufacturing Technology (SIMTech), Singapore**
+* **Jul 2024 - Mar 2026: Scientist, Singapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Singapore**
   * Research and development on AI-driven optimization and scheduling methods for intelligent manufacturing.
 
-* **Oct 2024 - Mar 2026: Joint-appointment Postdoctoral Research Fellow, Nanyang Technological University, Singapore**
-  * Supervisor: Prof. Ong Yew Soon
+* **Oct 2024 - Mar 2026: Joint-appointment Postdoctoral Research Fellow, Nanyang Technological University, Singapore (NTU Singapore)**
+  * Supervisor: Professor Yew-Soon Ong
   * Research on evolutionary learning and intelligent scheduling.
 
 * **Oct 2020 - Apr 2022: Algorithm Engineer, Zhejiang Lab, China**
