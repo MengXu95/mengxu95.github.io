@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Meng Xu (许萌)"
+title: "Homepage"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 Professor\
+轻量智能系统北京市重点实验室已正式获批 (Beijing Key Laboratory of Lightweight Intelligent System)\
 <a target="_blank" href="https://automation.bit.edu.cn/">School of Automation</a>\
 <a target="_blank" href="https://english.bit.edu.cn/">Beijing Institute of Technology</a>
 
@@ -54,5 +55,5 @@ Selected Links
 <li>Google Scholar: <a target="_blank" href="https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en">https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en</a></li>
 <li>ORCID: <a target="_blank" href="https://orcid.org/0000-0002-9930-0403">https://orcid.org/0000-0002-9930-0403</a></li>
 <li>GitHub: <a target="_blank" href="https://github.com/MengXu95">https://github.com/MengXu95</a></li>
-<li>Email: meng.xu@ecs.vuw.ac.nz</li>
+<li>Email: mengxu@bit.edu.cn / meng.xu.vuw@gmail.com</li>
 </ul>
