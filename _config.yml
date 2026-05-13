@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Meng Xu (许萌)"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Meng Xu (许萌)"
 description              : &description "personal description"

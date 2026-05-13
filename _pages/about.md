@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Homepage"
+title: "Meng Xu (许萌)"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -9,8 +9,9 @@ redirect_from:
 ---
 
 Professor\
-轻量智能系统北京市重点实验室已正式获批 (Beijing Key Laboratory of Lightweight Intelligent System)\
-<a target="_blank" href="https://automation.bit.edu.cn/">School of Automation</a>\
+Beijing Key Laboratory of Lightweight Intelligent System\
+轻量智能系统北京市重点实验室已正式获批\
+Control Science and Engineering, <a target="_blank" href="https://automation.bit.edu.cn/">School of Automation</a>\
 <a target="_blank" href="https://english.bit.edu.cn/">Beijing Institute of Technology</a>
 
 I am a Professor in the School of Automation at Beijing Institute of Technology since April 2026. My research focuses on evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization for dynamic scheduling and decision making.
