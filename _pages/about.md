@@ -10,7 +10,7 @@ redirect_from:
 
 Professor\
 Beijing Key Laboratory of Lightweight Intelligent System\
-轻量智能系统北京市重点实验室已正式获批\
+轻量智能系统北京市重点实验室\
 Control Science and Engineering, <a target="_blank" href="https://automation.bit.edu.cn/">School of Automation</a>\
 <a target="_blank" href="https://english.bit.edu.cn/">Beijing Institute of Technology</a>
 

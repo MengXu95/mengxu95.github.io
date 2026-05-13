@@ -8,7 +8,7 @@ author_profile: true
 **Open-Source Projects**
 
 <ol>
-<li><a target="_blank" href="https://github.com/MengXu95/Fog-Computing">Fog-Computing</a> <strong>[Python]</strong>: Code and resources related to dynamic workflow scheduling in fog/cloud computing scenarios.</li>
+<li><a target="_blank" href="https://github.com/MengXu95/Fog-Computing">Fog-Computing</a> <strong>[Java]</strong>: Code and resources related to dynamic workflow scheduling in fog/cloud computing scenarios.</li>
 <li><a target="_blank" href="https://github.com/MengXu95/InventoryControl">InventoryControl</a> <strong>[Python]</strong>: Research code for dynamic inventory control and decision optimization experiments.</li>
 <li><a target="_blank" href="https://github.com/MengXu95/GPDFJSS">GPDFJSS</a> <strong>[Python]</strong>: Genetic programming based methods for dynamic flexible job shop scheduling.</li>
 <li><a target="_blank" href="https://github.com/MengXu95/NichGPDRL">NichGPDRL</a> <strong>[Python]</strong>: Niching genetic programming and deep reinforcement learning related implementations.</li>
