@@ -23,6 +23,7 @@ News
 <ul style="list-style-type: square;">
 <li><b>Apr 2026</b>: I joined the School of Automation, Beijing Institute of Technology as Professor.</li>
 <li><b>2026</b>: New works on advanced diverse partner selection, multitask genetic programming, and inventory policy optimization were added to my publication list.</li>
+<li><b>2025</b>: I was awarded the <span style="color: #b00020;"><strong>Excellent Young Scientists Fund Project</strong></span> (Overseas), China, by the School of Engineering and Computer Science (SECS), Victoria University of Wellington (VUW).</li>
 <li><b>Jul 2024 - Mar 2026</b>: I worked as a Scientist at the Singapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Singapore.</li>
 <li><b>Oct 2024 - Mar 2026</b>: I held a joint postdoctoral appointment at Nanyang Technological University, Singapore (NTU Singapore), supervised by Professor Yew-Soon Ong.</li>
 <li><b>Jul 2024</b>: I completed my PhD at Victoria University of Wellington, supervised by Yi Mei, Fangfang Zhang, and Mengjie Zhang.</li>
