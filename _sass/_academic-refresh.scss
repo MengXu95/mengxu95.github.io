@@ -25,15 +25,17 @@ body {
 .page__footer {
   position: static !important;
   bottom: auto !important;
+  float: none !important;
   clear: both;
-  margin-top: 1.6rem;
-  background: rgba(255, 253, 248, 0.94);
+  width: 100%;
+  margin-top: 0;
+  background: rgba(255, 253, 248, 0.98);
   border-top: 1px solid rgba(17, 104, 95, 0.16);
 }
 
 .page__footer footer {
   margin-top: 0;
-  padding: 0.9rem 1rem 1rem;
+  padding: 0.55rem 1rem 0.7rem;
 }
 
 .page__footer-follow li {
@@ -48,6 +50,10 @@ body {
 #main,
 .masthead__inner-wrap {
   max-width: 1440px;
+}
+
+#main {
+  min-height: calc(100vh - 70px - 4.2rem);
 }
 
 @media (min-width: 57.8125em) {
