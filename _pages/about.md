@@ -13,7 +13,7 @@ redirect_from:
     <div class="summary-main">
       <p class="section-label">Current Position</p>
       <h2>Professor in AI Scheduling and Evolutionary Computation</h2>
-      <p>I am a Professor in the School of Automation at Beijing Institute of Technology. My research develops evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization methods for dynamic scheduling and decision making.</p>
+      <p>I am a Professor in the School of Automation at Beijing Institute of Technology, affiliated with Control Science and Engineering and Pattern Recognition and Intelligent Systems. My research develops evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization methods for dynamic scheduling and decision making.</p>
       <p>Before joining Beijing Institute of Technology, I worked as a Scientist at SIMTech, A*STAR Singapore, with a joint postdoctoral appointment at Nanyang Technological University.</p>
       <div class="inline-actions">
         <a href="/research/">Research Overview</a>
@@ -24,6 +24,7 @@ redirect_from:
     <aside class="summary-facts" aria-label="Profile summary">
       <dl>
         <div><dt>Affiliation</dt><dd>School of Automation, Beijing Institute of Technology</dd></div>
+        <div><dt>Discipline</dt><dd>Control Science and Engineering; Pattern Recognition and Intelligent Systems</dd></div>
         <div><dt>Laboratory</dt><dd>Beijing Key Laboratory of Lightweight Intelligent System</dd></div>
         <div><dt>Email</dt><dd><a href="mailto:mengxu@bit.edu.cn">mengxu@bit.edu.cn</a></dd></div>
       </dl>
@@ -60,7 +61,7 @@ redirect_from:
       </div>
       <ul class="clean-list">
         <li><time>2026</time><span>EvoSpeak was accepted by <i>IEEE Transactions on Evolutionary Computation</i>.</span></li>
-        <li><time>Apr 2026</time><span>Joined the School of Automation, Beijing Institute of Technology as Professor.</span></li>
+        <li><time>Apr 2026</time><span>Joined the School of Automation, Beijing Institute of Technology as Professor in Control Science and Engineering and Pattern Recognition and Intelligent Systems.</span></li>
         <li><time>2026</time><span>Added works on diverse partner selection, multitask genetic programming, and inventory policy optimization.</span></li>
         <li><time>2025</time><span>Awarded the Excellent Young Scientists Fund Project (Overseas), China.</span></li>
         <li><time>Jul 2024</time><span>Completed PhD at Victoria University of Wellington.</span></li>
@@ -91,7 +92,7 @@ redirect_from:
       <h2>Appointments and Training</h2>
     </div>
     <ul class="clean-list timeline-list">
-      <li><time>Apr 2026 - Present</time><span>Professor, School of Automation, Beijing Institute of Technology, China.</span></li>
+      <li><time>Apr 2026 - Present</time><span>Professor, School of Automation, Beijing Institute of Technology, China; Control Science and Engineering; Pattern Recognition and Intelligent Systems.</span></li>
       <li><time>Jul 2024 - Mar 2026</time><span>Scientist, Singapore Institute of Manufacturing Technology (SIMTech), A*STAR, Singapore.</span></li>
       <li><time>Oct 2024 - Mar 2026</time><span>Joint-appointment Postdoctoral Research Fellow, Nanyang Technological University, Singapore.</span></li>
       <li><time>Nov 2020 - Jul 2024</time><span>PhD in Computer Science, Victoria University of Wellington, New Zealand.</span></li>
