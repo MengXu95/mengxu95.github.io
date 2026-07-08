@@ -7,48 +7,64 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<div class="structured-page cv-page">
+  <section class="content-section lead-section">
+    <p class="section-label">Curriculum Vitae</p>
+    <h2>Meng Xu (许萌)</h2>
+    <p>Professor in the School of Automation at Beijing Institute of Technology, working on evolutionary computation, genetic programming, reinforcement learning, and intelligent optimization for scheduling and decision making.</p>
+  </section>
 
-Education
-======
-* PhD in Computer Science, Victoria University of Wellington, New Zealand, Nov 2020 - Jul 2024
-  * Supervisors: Yi Mei, Fangfang Zhang, and Mengjie Zhang
-* MSc in Control Science and Engineering, School of Automation, Beijing Institute of Technology, China, 2017 - 2020
-  * Recommended admission for graduate study
-* BSc in Automation, School of Automation, Beijing Institute of Technology, China, 2013 - 2017
+  <section class="content-section">
+    <div class="section-heading">
+      <p>Appointments</p>
+      <h2>Professional Experience</h2>
+    </div>
+    <ul class="clean-list timeline-list">
+      <li><time>Apr 2026 - Present</time><span><strong>Professor</strong>, School of Automation, Beijing Institute of Technology, China. Research on evolutionary computation, reinforcement learning, and intelligent optimization for scheduling and decision making.</span></li>
+      <li><time>Jul 2024 - Mar 2026</time><span><strong>Scientist</strong>, Singapore Institute of Manufacturing Technology (SIMTech), A*STAR, Singapore. Research and development on AI-driven optimization and scheduling methods for intelligent manufacturing.</span></li>
+      <li><time>Oct 2024 - Mar 2026</time><span><strong>Joint-appointment Postdoctoral Research Fellow</strong>, Nanyang Technological University, Singapore. Supervisor: Professor Yew-Soon Ong.</span></li>
+      <li><time>Oct 2020 - Apr 2022</time><span><strong>Algorithm Engineer</strong>, Zhejiang Lab, China. Built a dynamic workflow scheduling simulator for multi-robot cloud-side scenarios and proposed a genetic programming approach for workflow scheduling.</span></li>
+      <li><time>Jul 2019 - Sep 2019</time><span><strong>Algorithm Engineer</strong>, Alibaba, China. Developed a real-time pedestrian detection and tracking pipeline using RGB-D data.</span></li>
+    </ul>
+  </section>
 
-Professional Experience
-======
-* **Apr 2026 - Present: Professor, School of Automation, Beijing Institute of Technology, China**
-  * Research on evolutionary computation, reinforcement learning, and intelligent optimization for scheduling and decision making.
+  <section class="content-section">
+    <div class="section-heading">
+      <p>Training</p>
+      <h2>Education</h2>
+    </div>
+    <ul class="clean-list timeline-list">
+      <li><time>Nov 2020 - Jul 2024</time><span><strong>PhD in Computer Science</strong>, Victoria University of Wellington, New Zealand. Supervisors: Yi Mei, Fangfang Zhang, and Mengjie Zhang.</span></li>
+      <li><time>2017 - 2020</time><span><strong>MSc in Control Science and Engineering</strong>, School of Automation, Beijing Institute of Technology, China. Recommended admission for graduate study.</span></li>
+      <li><time>2013 - 2017</time><span><strong>BSc in Automation</strong>, School of Automation, Beijing Institute of Technology, China.</span></li>
+    </ul>
+  </section>
 
-* **Jul 2024 - Mar 2026: Scientist, Singapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Singapore**
-  * Research and development on AI-driven optimization and scheduling methods for intelligent manufacturing.
+  <section class="content-section">
+    <div class="section-heading">
+      <p>Skills</p>
+      <h2>Technical Background</h2>
+    </div>
+    <div class="cv-skill-grid">
+      <article><h3>Languages</h3><p>Java, Python, R, LaTeX, C++</p></article>
+      <article><h3>Tools</h3><p>Git/GitHub, IntelliJ IDEA/PyCharm, Microsoft Office</p></article>
+      <article><h3>Research Areas</h3><p>Evolutionary computation, genetic programming, reinforcement learning, scheduling, multi-objective optimization.</p></article>
+    </div>
+  </section>
 
-* **Oct 2024 - Mar 2026: Joint-appointment Postdoctoral Research Fellow, Nanyang Technological University, Singapore (NTU Singapore)**
-  * Supervisor: Professor Yew-Soon Ong
-  * Research on evolutionary learning and intelligent scheduling.
+  <section class="content-section">
+    <div class="section-heading">
+      <p>Selected Talk</p>
+      <h2>Academic Presentation</h2>
+    </div>
+    <ul class="clean-list timeline-list">
+      <li><time>Nov 2023</time><span><strong>Queensland University, Brisbane, Australia.</strong> Paper presentation at AJCAI and poster presentation at the AJCAI PhD Forum; received Best Poster Runner-up and a 500 AUD award.</span></li>
+    </ul>
+  </section>
 
-* **Oct 2020 - Apr 2022: Algorithm Engineer, Zhejiang Lab, China**
-  * Built a dynamic workflow scheduling simulator for multi-robot cloud-side scenarios.
-  * Proposed a genetic programming approach for workflow scheduling.
-
-* **Jul 2019 - Sep 2019: Algorithm Engineer, Alibaba, China**
-  * Developed a real-time pedestrian detection and tracking pipeline using RGB-D data.
-  * Evaluated the method in supermarket traffic monitoring settings.
-
-Selected Publications
-======
-* Full publication list: [Google Scholar](https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en)
-* On-site publication list: [/publications/](/publications/)
-
-Skills
-======
-* **Languages**: Java, Python, R, LaTeX, C++
-* **Tools**: Git/GitHub, IntelliJ IDEA/PyCharm, Microsoft Office
-
-Talks
-======
-* **Nov 2023: Queensland University, Brisbane, Australia**
-  * Paper presentation at AJCAI.
-  * Poster presentation at the AJCAI PhD Forum; received Best Poster Runner-up and a 500 AUD award.
+  <section class="external-links" aria-label="CV links">
+    <a target="_blank" href="https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en">Google Scholar</a>
+    <a href="/publications/">Publication List</a>
+    <a href="/research/">Research Overview</a>
+  </section>
+</div>

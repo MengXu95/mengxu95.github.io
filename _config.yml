@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Homepage"
+title                    : "Meng Xu"
 title_separator          : "-"
 name                     : &name "Meng Xu (许萌)"
-description              : &description "personal description"
+description              : &description "Academic homepage of Meng Xu, Professor in AI scheduling, evolutionary computation, and data-driven optimization."
 url                      : https://mengxu95.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "MengXu95/mengxu95.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -28,7 +28,7 @@ author:
   location         : "Beijing, China"
   employer         : "School of Automation, Beijing Institute of Technology"
   uri              : # URL
-  email            : "meng.xu@ecs.vuw.ac.nz"
+  email            : "mengxu@bit.edu.cn"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -279,7 +279,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

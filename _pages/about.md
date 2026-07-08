@@ -8,54 +8,100 @@ redirect_from:
   - /about.html
 ---
 
-Professor\
-Beijing Key Laboratory of Lightweight Intelligent System\
-轻量智能系统北京市重点实验室\
-Control Science and Engineering, <a target="_blank" href="https://automation.bit.edu.cn/">School of Automation</a>\
-<a target="_blank" href="https://english.bit.edu.cn/">Beijing Institute of Technology</a>
+<div class="home-redesign">
+  <section class="profile-summary">
+    <div class="summary-main">
+      <p class="section-label">Current Position</p>
+      <h2>Professor in AI Scheduling and Evolutionary Computation</h2>
+      <p>I am a Professor in the School of Automation at Beijing Institute of Technology. My research develops evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization methods for dynamic scheduling and decision making.</p>
+      <p>Before joining Beijing Institute of Technology, I worked as a Scientist at SIMTech, A*STAR Singapore, with a joint postdoctoral appointment at Nanyang Technological University.</p>
+      <div class="inline-actions">
+        <a href="/research/">Research Overview</a>
+        <a href="/publications/">Publications</a>
+        <a href="mailto:mengxu@bit.edu.cn">Contact</a>
+      </div>
+    </div>
+    <aside class="summary-facts" aria-label="Profile summary">
+      <dl>
+        <div><dt>Affiliation</dt><dd>School of Automation, Beijing Institute of Technology</dd></div>
+        <div><dt>Laboratory</dt><dd>Beijing Key Laboratory of Lightweight Intelligent System</dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:mengxu@bit.edu.cn">mengxu@bit.edu.cn</a></dd></div>
+      </dl>
+    </aside>
+  </section>
 
-I am a Professor in the School of Automation at Beijing Institute of Technology since April 2026. My research focuses on evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization for dynamic scheduling and decision making.
+  <section class="content-section">
+    <div class="section-heading">
+      <p>Research Snapshot</p>
+      <h2>Learning robust decision rules for complex scheduling systems</h2>
+    </div>
+    <div class="research-list">
+      <article>
+        <h3>Dynamic Scheduling</h3>
+        <p>Learning dispatching rules and adaptive policies for flexible job shops, workflows, fog computing, and manufacturing operations.</p>
+      </article>
+      <article>
+        <h3>Evolutionary Learning</h3>
+        <p>Designing genetic programming, quality diversity, niching, and multi-objective search methods for interpretable scheduling heuristics.</p>
+      </article>
+      <article>
+        <h3>Decision Optimization</h3>
+        <p>Combining optimization and machine learning for inventory control, replenishment, transshipment, and industrial decision making.</p>
+      </article>
+    </div>
+    <a class="text-link" href="/research/">View full research overview</a>
+  </section>
 
-Before joining Beijing Institute of Technology, I worked as a Scientist at the Singapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Singapore, from July 2024 to March 2026, with a joint appointment as a Postdoctoral Research Fellow at Nanyang Technological University, Singapore (NTU Singapore), from October 2024 to March 2026.
+  <section class="content-grid">
+    <div class="content-section compact-section">
+      <div class="section-heading">
+        <p>Latest</p>
+        <h2>Recent Updates</h2>
+      </div>
+      <ul class="clean-list">
+        <li><time>Apr 2026</time><span>Joined the School of Automation, Beijing Institute of Technology as Professor.</span></li>
+        <li><time>2026</time><span>Added works on diverse partner selection, multitask genetic programming, and inventory policy optimization.</span></li>
+        <li><time>2025</time><span>Awarded the Excellent Young Scientists Fund Project (Overseas), China.</span></li>
+        <li><time>Jul 2024</time><span>Completed PhD at Victoria University of Wellington.</span></li>
+      </ul>
+      <a class="text-link" href="/news/">View all news</a>
+    </div>
 
-News
-======
-<ul style="list-style-type: square;">
-<li><b>Apr 2026</b>: I joined the School of Automation, Beijing Institute of Technology as Professor.</li>
-<li><b>2026</b>: New works on advanced diverse partner selection, multitask genetic programming, and inventory policy optimization were added to my publication list.</li>
-<li><b>2025</b>: I was awarded the <span style="color: #b00020;"><strong>Excellent Young Scientists Fund Project</strong></span> (Overseas), China.</li>
-<li><b>Jul 2024 - Mar 2026</b>: I worked as a Scientist at the Singapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Singapore.</li>
-<li><b>Oct 2024 - Mar 2026</b>: I held a joint postdoctoral appointment at Nanyang Technological University, Singapore (NTU Singapore), supervised by Professor Yew-Soon Ong.</li>
-<li><b>Jul 2024</b>: I completed my PhD at Victoria University of Wellington, supervised by Yi Mei, Fangfang Zhang, and Mengjie Zhang.</li>
-</ul>
+    <div class="content-section compact-section">
+      <div class="section-heading">
+        <p>Explore</p>
+        <h2>Research Outputs</h2>
+      </div>
+      <nav class="resource-nav" aria-label="Research outputs">
+        <a href="/research/"><span>Research</span><small>Research directions, methods, and application domains.</small></a>
+        <a href="/publications/"><span>Publications</span><small>Journal papers, conferences, preprints, patents, and thesis.</small></a>
+        <a href="/resources/"><span>Code & Resources</span><small>Open-source repositories and public research materials.</small></a>
+        <a href="/cv/"><span>CV</span><small>Education, appointments, skills, and selected talks.</small></a>
+        <a href="/honours-awards/"><span>Honours</span><small>Awards and recognition.</small></a>
+        <a href="/grants/"><span>Grants</span><small>Research funding and project support.</small></a>
+        <a href="/professional-activities/"><span>Activities</span><small>Professional roles, collaborations, and open-source contributions.</small></a>
+      </nav>
+    </div>
+  </section>
 
-Research Interests
-======
-<ul style="list-style-type: square;">
-<li>Evolutionary computation and machine learning</li>
-<li>Genetic programming and hyper-heuristics</li>
-<li>Dynamic scheduling and combinatorial optimization</li>
-<li>Multi-objective optimization and decision making</li>
-<li>Reinforcement learning for scheduling and optimization</li>
-<li>AI for intelligent manufacturing, fog computing, and workflow systems</li>
-</ul>
+  <section class="content-section">
+    <div class="section-heading">
+      <p>Background</p>
+      <h2>Appointments and Training</h2>
+    </div>
+    <ul class="clean-list timeline-list">
+      <li><time>Apr 2026 - Present</time><span>Professor, School of Automation, Beijing Institute of Technology, China.</span></li>
+      <li><time>Jul 2024 - Mar 2026</time><span>Scientist, Singapore Institute of Manufacturing Technology (SIMTech), A*STAR, Singapore.</span></li>
+      <li><time>Oct 2024 - Mar 2026</time><span>Joint-appointment Postdoctoral Research Fellow, Nanyang Technological University, Singapore.</span></li>
+      <li><time>Nov 2020 - Jul 2024</time><span>PhD in Computer Science, Victoria University of Wellington, New Zealand.</span></li>
+      <li><time>2017 - 2020</time><span>MSc in Control Science and Engineering, Beijing Institute of Technology, China.</span></li>
+      <li><time>2013 - 2017</time><span>BSc in Automation, Beijing Institute of Technology, China.</span></li>
+    </ul>
+  </section>
 
-Biography
-======
-<ul style="list-style-type: square;">
-<li><b>Apr 2026 - Present</b>: Professor, School of Automation, Beijing Institute of Technology, China.</li>
-<li><b>Jul 2024 - Mar 2026</b>: Scientist, Singapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Singapore.</li>
-<li><b>Oct 2024 - Mar 2026</b>: Joint-appointment Postdoctoral Research Fellow, Nanyang Technological University, Singapore (NTU Singapore). Supervisor: Professor Yew-Soon Ong.</li>
-<li><b>Nov 2020 - Jul 2024</b>: PhD in Computer Science, Victoria University of Wellington, New Zealand. Supervisors: Yi Mei, Fangfang Zhang, and Mengjie Zhang.</li>
-<li><b>2017 - 2020</b>: MSc in Control Science and Engineering, School of Automation, Beijing Institute of Technology, China. Recommended admission for graduate study.</li>
-<li><b>2013 - 2017</b>: BSc in Automation, School of Automation, Beijing Institute of Technology, China.</li>
-</ul>
-
-Selected Links
-======
-<ul style="list-style-type: square;">
-<li>Google Scholar: <a target="_blank" href="https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en">https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en</a></li>
-<li>ORCID: <a target="_blank" href="https://orcid.org/0000-0002-9930-0403">https://orcid.org/0000-0002-9930-0403</a></li>
-<li>GitHub: <a target="_blank" href="https://github.com/MengXu95">https://github.com/MengXu95</a></li>
-<li>Email: mengxu@bit.edu.cn / meng.xu.vuw@gmail.com</li>
-</ul>
+  <section class="external-links" aria-label="Selected links">
+    <a target="_blank" href="https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en">Google Scholar</a>
+    <a target="_blank" href="https://orcid.org/0000-0002-9930-0403">ORCID</a>
+    <a target="_blank" href="https://github.com/MengXu95">GitHub</a>
+  </section>
+</div>
