@@ -195,8 +195,8 @@ body {
 
 .profile-summary {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(18rem, 28%);
-  gap: 1.15rem;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
   margin-bottom: 1.05rem;
   padding: 1.35rem 1.35rem 1.35rem 1.65rem;
 }
@@ -274,9 +274,9 @@ body {
 }
 
 .summary-facts {
-  padding: 0 0 0 1rem;
-  border-left: 1px solid rgba(17, 104, 95, 0.18);
-  border-top: 0;
+  padding-top: 1rem;
+  border-left: 0;
+  border-top: 1px solid rgba(17, 104, 95, 0.18);
 }
 
 .summary-facts dl,
@@ -286,14 +286,22 @@ body {
   margin: 0;
 }
 
+.summary-facts dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+
 .summary-facts dl > div {
-  padding: 0.58rem 0;
-  border-top: 1px solid rgba(17, 104, 95, 0.14);
+  min-height: 5rem;
+  padding: 0.82rem 0.9rem;
+  border: 1px solid rgba(17, 104, 95, 0.14);
+  background: linear-gradient(180deg, rgba(219, 234, 242, 0.34), rgba(255, 253, 248, 0.9));
 }
 
 .summary-facts dl > div:first-child {
-  padding-top: 0;
-  border-top: 0;
+  padding-top: 0.82rem;
+  border-top: 1px solid rgba(17, 104, 95, 0.14);
 }
 
 .summary-facts dt {
@@ -752,6 +760,10 @@ body {
     padding-top: 0.9rem;
     border-left: 0;
     border-top: 1px solid rgba(17, 104, 95, 0.16);
+  }
+
+  .summary-facts dl {
+    grid-template-columns: 1fr;
   }
 
   .recruiting-announcement {
