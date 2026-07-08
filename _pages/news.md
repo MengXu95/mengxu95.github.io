@@ -14,6 +14,7 @@ author_profile: true
 
   <section class="content-section">
     <ul class="clean-list timeline-list">
+      <li><time>2026</time><span>EvoSpeak was accepted by <i>IEEE Transactions on Evolutionary Computation</i>.</span></li>
       <li><time>Apr 2026</time><span>I joined the School of Automation, Beijing Institute of Technology as Professor.</span></li>
       <li><time>2026</time><span>New works on advanced diverse partner selection, multitask genetic programming, and inventory policy optimization were added to my publication list.</span></li>
       <li><time>2025</time><span>Multiple new publications appeared in CEC, IEEE Transactions on Evolutionary Computation, and Artificial Intelligence Review.</span></li>

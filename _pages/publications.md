@@ -12,6 +12,7 @@ author_profile: true
 <h2 class="pub-section-title">Journal Papers</h2>
 
 <ol>
+<li><strong>Meng Xu</strong>, Jing Liu, and Yew Soon Ong. &quot;EvoSpeak: Large Language Models for Interpretable Genetic Programming-Evolved Heuristics.&quot; <i>IEEE Transactions on Evolutionary Computation</i>, 2026. DOI: 10.1109/TEVC.2026.3705492.</li>
 <li><strong>Meng Xu</strong>, Yi Mei, Fangfang Zhang, Yew Soon Ong, and Mengjie Zhang. &quot;Genetic Programming with Advanced Diverse Partner Selection for Dynamic Scheduling.&quot; <i>Expert Systems with Applications</i>, 2026. DOI: 10.1016/j.eswa.2026.132158.</li>
 <li><strong>Meng Xu</strong>, Jinsheng Chen, Nam Doan, Joel Tay, Puay Siew Tan, and Yew Soon Ong. &quot;Niching Genetic Programming for Co-Joint Optimization: A Case Study on Replenishment and Transshipment Policies in Dynamic Multi-Site Inventory Management.&quot; <i>Memetic Computing</i>, 2026.</li>
 <li>Yanchi Li, Xinyi Wu, Wenyin Gong, <strong>Meng Xu</strong>, Yubo Wang, and Qiong Gu. &quot;Evolutionary Competitive Multiobjective Multitasking: One-Pass Optimization of Heterogeneous Pareto Solutions.&quot; <i>IEEE Transactions on Evolutionary Computation</i>, 2025. DOI: 10.1109/TEVC.2024.3524508.</li>
@@ -43,7 +44,6 @@ author_profile: true
 
 <ol>
 <li><strong>Meng Xu</strong>, Jing Liu, Han Yu, and Yew Soon Ong. &quot;TransGP: Task-Conditioned Transformer-Guided Genetic Programming for Multitask Dynamic Flexible Job Shop Scheduling.&quot; <i>arXiv preprint arXiv:2604.03705</i>, 2026.</li>
-<li><strong>Meng Xu</strong>, Jing Liu, and Yew Soon Ong. &quot;EvoSpeak: Large Language Models for Interpretable Genetic Programming-Evolved Heuristics.&quot; <i>arXiv preprint arXiv:2510.02686</i>, 2025.</li>
 </ol>
 
 <h2 class="pub-section-title">Thesis</h2>

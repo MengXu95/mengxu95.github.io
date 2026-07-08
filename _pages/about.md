@@ -59,6 +59,7 @@ redirect_from:
         <h2>Recent Updates</h2>
       </div>
       <ul class="clean-list">
+        <li><time>2026</time><span>EvoSpeak was accepted by <i>IEEE Transactions on Evolutionary Computation</i>.</span></li>
         <li><time>Apr 2026</time><span>Joined the School of Automation, Beijing Institute of Technology as Professor.</span></li>
         <li><time>2026</time><span>Added works on diverse partner selection, multitask genetic programming, and inventory policy optimization.</span></li>
         <li><time>2025</time><span>Awarded the Excellent Young Scientists Fund Project (Overseas), China.</span></li>
