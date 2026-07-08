@@ -31,6 +31,16 @@ redirect_from:
     </aside>
   </section>
 
+  <section class="recruiting-announcement" aria-label="Recruiting announcement">
+    <div class="announcement-icon" aria-hidden="true"><i class="fa-solid fa-bullhorn"></i></div>
+    <div class="announcement-copy">
+      <p class="section-label">Recruiting</p>
+      <h2>PhD and MSc positions available for September 2027 entry</h2>
+      <p>I am recruiting motivated PhD and MSc students interested in evolutionary computation, genetic programming, reinforcement learning, scheduling, and intelligent optimization.</p>
+    </div>
+    <a href="mailto:mengxu@bit.edu.cn">Contact by email</a>
+  </section>
+
   <section class="content-section">
     <div class="section-heading">
       <p>Research Snapshot</p>
