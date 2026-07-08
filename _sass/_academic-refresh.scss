@@ -112,6 +112,28 @@ body {
   line-height: 1.55;
 }
 
+.author__urls li,
+.author__urls a {
+  white-space: normal;
+}
+
+.author__urls li {
+  overflow-wrap: anywhere;
+}
+
+.author__urls a,
+.author__desktop {
+  display: grid;
+  grid-template-columns: 1.2rem minmax(0, 1fr);
+  column-gap: 0.25rem;
+  align-items: start;
+}
+
+.author__urls .icon-pad-right {
+  padding-right: 0;
+  margin-top: 0.2rem;
+}
+
 .home-redesign,
 .structured-page {
   color: var(--mx-text);
