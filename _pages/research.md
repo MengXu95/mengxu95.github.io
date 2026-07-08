@@ -1,0 +1,54 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+<div class="structured-page">
+  <section class="content-section lead-section">
+    <p class="section-label">Research Program</p>
+    <h2>Learning interpretable decision rules for dynamic scheduling and industrial optimization</h2>
+    <p>My work studies how evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization can learn robust scheduling heuristics for environments where jobs, resources, and objectives change over time.</p>
+  </section>
+
+  <section class="content-section">
+    <div class="section-heading">
+      <p>Directions</p>
+      <h2>Core research areas</h2>
+    </div>
+    <div class="research-list">
+      <article>
+        <h3>Dynamic Flexible Job Shop Scheduling</h3>
+        <p>Learning dispatching rules and adaptive policies for flexible manufacturing systems with changing job arrivals, machine states, and operational objectives.</p>
+      </article>
+      <article>
+        <h3>Genetic Programming for Heuristic Learning</h3>
+        <p>Developing genetic programming methods including lexicase selection, diverse partner selection, semantic search, niching, and quality diversity for interpretable heuristic discovery.</p>
+      </article>
+      <article>
+        <h3>Multi-objective and Data-driven Optimization</h3>
+        <p>Designing methods for Pareto set learning, multi-objective decision making, and expensive optimization under dynamic industrial constraints.</p>
+      </article>
+      <article>
+        <h3>AI for Manufacturing and Service Systems</h3>
+        <p>Applying scheduling and decision optimization methods to fog workflows, inventory control, replenishment, transshipment, and intelligent manufacturing operations.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="section-heading">
+      <p>Methods</p>
+      <h2>Methodological themes</h2>
+    </div>
+    <ul class="tag-list-clean">
+      <li>Evolutionary computation</li>
+      <li>Genetic programming</li>
+      <li>Hyper-heuristics</li>
+      <li>Reinforcement learning</li>
+      <li>Multi-objective optimization</li>
+      <li>Data-driven decision making</li>
+    </ul>
+  </section>
+</div>

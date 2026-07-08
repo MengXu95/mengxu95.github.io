@@ -10,13 +10,15 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
+gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin]
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# wdm is only needed for Windows file watching and does not currently build on Ruby 3.3.
+gem "wdm", "~> 0.1.0" if Gem.win_platform? && RUBY_VERSION < "3.3"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

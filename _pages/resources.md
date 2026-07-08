@@ -5,23 +5,35 @@ permalink: /resources/
 author_profile: true
 ---
 
-**Open-Source Projects**
+<div class="structured-page">
+  <section class="content-section lead-section">
+    <p class="section-label">Resources</p>
+    <h2>Research code and public materials</h2>
+    <p>This page tracks public resources most relevant to current research on genetic programming, reinforcement learning, scheduling, and industrial decision optimization.</p>
+  </section>
 
-<ol>
-<li><a target="_blank" href="https://github.com/MengXu95/Fog-Computing">Fog-Computing</a> <strong>[Java]</strong>: Code and resources related to dynamic workflow scheduling in fog/cloud computing scenarios.</li>
-<li><a target="_blank" href="https://github.com/MengXu95/InventoryControl">InventoryControl</a> <strong>[Python]</strong>: Research code for dynamic inventory control and decision optimization experiments.</li>
-<li><a target="_blank" href="https://github.com/MengXu95/GPDFJSS">GPDFJSS</a> <strong>[Python]</strong>: Genetic programming based methods for dynamic flexible job shop scheduling.</li>
-<li><a target="_blank" href="https://github.com/MengXu95/NichGPDRL">NichGPDRL</a> <strong>[Python]</strong>: Niching genetic programming and deep reinforcement learning related implementations.</li>
-<li><a target="_blank" href="https://github.com/MengXu95/GPDFJSS-MENG">GPDFJSS-MENG</a> <strong>[Java]</strong>: Extended implementation and experiments for dynamic flexible job shop scheduling research.</li>
-</ol>
+  <section class="content-section">
+    <div class="section-heading">
+      <p>Code</p>
+      <h2>Open-source projects</h2>
+    </div>
+    <div class="project-list-cards">
+      <article><div><h3><a target="_blank" href="https://github.com/MengXu95/Fog-Computing">Fog-Computing</a></h3><span>Java</span></div><p>Dynamic workflow scheduling code and resources for fog/cloud computing scenarios.</p></article>
+      <article><div><h3><a target="_blank" href="https://github.com/MengXu95/InventoryControl">InventoryControl</a></h3><span>Python</span></div><p>Research code for dynamic inventory control, replenishment, transshipment, and decision optimization experiments.</p></article>
+      <article><div><h3><a target="_blank" href="https://github.com/MengXu95/GPDFJSS">GPDFJSS</a></h3><span>Python</span></div><p>Genetic programming methods for dynamic flexible job shop scheduling.</p></article>
+      <article><div><h3><a target="_blank" href="https://github.com/MengXu95/NichGPDRL">NichGPDRL</a></h3><span>Python</span></div><p>Niching genetic programming and deep reinforcement learning implementations for scheduling research.</p></article>
+      <article><div><h3><a target="_blank" href="https://github.com/MengXu95/GPDFJSS-MENG">GPDFJSS-MENG</a></h3><span>Java</span></div><p>Extended implementation and experiments for dynamic flexible job shop scheduling research.</p></article>
+    </div>
+  </section>
 
-**Publication Resources**
-
-<ol>
-<li>Google Scholar profile (latest papers and citations): <a target="_blank" href="https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en">https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en</a></li>
-<li>ORCID profile: <a target="_blank" href="https://orcid.org/0000-0002-9930-0403">https://orcid.org/0000-0002-9930-0403</a></li>
-</ol>
-
-**Notes**
-
-This page tracks the public resources most relevant to my current research. For complete publication metadata and updates, please refer to Google Scholar.
+  <section class="content-section">
+    <div class="section-heading">
+      <p>Profiles</p>
+      <h2>Publication resources</h2>
+    </div>
+    <nav class="resource-nav" aria-label="Publication resources">
+      <a target="_blank" href="https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en"><span>Google Scholar</span><small>Latest papers and citation records.</small></a>
+      <a target="_blank" href="https://orcid.org/0000-0002-9930-0403"><span>ORCID</span><small>Persistent researcher identifier and publication metadata.</small></a>
+    </nav>
+  </section>
+</div>

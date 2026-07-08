@@ -5,9 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-The complete and latest publication list is also available on <a target="_blank" href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+<div class="structured-page publications-page">
 
-**Journal Papers**
+<p class="publication-note">The complete and latest publication list is available on <a target="_blank" href="{{site.author.googlescholar}}">my Google Scholar profile</a>. The selected list below is grouped by publication type for quick browsing.</p>
+
+<h2 class="pub-section-title">Journal Papers</h2>
 
 <ol>
 <li><strong>Meng Xu</strong>, Yi Mei, Fangfang Zhang, Yew Soon Ong, and Mengjie Zhang. &quot;Genetic Programming with Advanced Diverse Partner Selection for Dynamic Scheduling.&quot; <i>Expert Systems with Applications</i>, 2026. DOI: 10.1016/j.eswa.2026.132158.</li>
@@ -22,7 +24,7 @@ The complete and latest publication list is also available on <a target="_blank"
 <li><strong>Meng Xu</strong>, Yi Mei, Shiqiang Zhu, Beibei Zhang, Tian Xiang, Fangfang Zhang, and Mengjie Zhang. &quot;Genetic Programming for Dynamic Workflow Scheduling in Fog Computing.&quot; <i>IEEE Transactions on Services Computing</i>, 2023.</li>
 </ol>
 
-**Conference Papers**
+<h2 class="pub-section-title">Conference Papers</h2>
 
 <ol>
 <li><strong>Meng Xu</strong>, Frank Neumann, Aneta Neumann, and Yew Soon Ong. &quot;Quality Diversity Genetic Programming for Learning Scheduling Heuristics.&quot; <i>Proceedings of the Genetic and Evolutionary Computation Conference</i>, 2025. DOI: 10.1145/3712256.3726343.</li>
@@ -37,20 +39,20 @@ The complete and latest publication list is also available on <a target="_blank"
 <li><strong>Meng Xu</strong>, Fangfang Zhang, Yi Mei, and Mengjie Zhang. &quot;Genetic Programming with Archive for Dynamic Flexible Job Shop Scheduling.&quot; <i>IEEE Congress on Evolutionary Computation (CEC)</i>, 2021.</li>
 </ol>
 
-**Preprints**
+<h2 class="pub-section-title">Preprints</h2>
 
 <ol>
 <li><strong>Meng Xu</strong>, Jing Liu, Han Yu, and Yew Soon Ong. &quot;TransGP: Task-Conditioned Transformer-Guided Genetic Programming for Multitask Dynamic Flexible Job Shop Scheduling.&quot; <i>arXiv preprint arXiv:2604.03705</i>, 2026.</li>
 <li><strong>Meng Xu</strong>, Jing Liu, and Yew Soon Ong. &quot;EvoSpeak: Large Language Models for Interpretable Genetic Programming-Evolved Heuristics.&quot; <i>arXiv preprint arXiv:2510.02686</i>, 2025.</li>
 </ol>
 
-**Thesis**
+<h2 class="pub-section-title">Thesis</h2>
 
 <ol>
 <li><strong>Meng Xu</strong>. &quot;Advancing Genetic Programming for Learning Scheduling Heuristics.&quot; PhD thesis, Te Herenga Waka-Victoria University of Wellington, 2024. <span style="color: #b00020;"><strong>2025 SIGEVO Dissertation Award, Honorable Mention</strong></span>.</li>
 </ol>
 
-**Patents**
+<h2 class="pub-section-title">Patents</h2>
 
 <ol>
 <li>Bin Xin, <strong>Meng Xu</strong>, Lihua Dou, Jie Chen, and Guanqiang Gao. 一种多运动体协同全覆盖路径规划方法. China, CN201811324766.X, 2021-01-01.</li>
@@ -58,10 +60,12 @@ The complete and latest publication list is also available on <a target="_blank"
 <li><strong>Meng Xu</strong> and Jinsheng Chen. Automated Learning of Transshipment and Replenishment Policies for Dynamic Multi-Site Inventory Management. TD-SIMT-CPPS-24-00403, 2025-03-17.</li>
 </ol>
 
-**Software Copyright**
+<h2 class="pub-section-title">Software Copyright</h2>
 
 <ol>
 <li>Beijing Institute of Technology. 基于遗传算法的多无人机协同搜索路径规划软件V1.0. Registration no. 2020SR1634593, original acquisition, all rights, 2020-06-22.</li>
 <li>Beijing Institute of Technology. 基于规则的多无人机协同搜索路径规划软件V1.0. Registration no. 2020SR1634592, original acquisition, all rights, 2020-06-22.</li>
 <li>Beijing Institute of Technology. 基于策略的多无人机目标跟踪路径规划软件V1.0. Registration no. 2020SR1634594, original acquisition, all rights, 2020-06-22.</li>
 </ol>
+
+</div>

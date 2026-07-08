@@ -1,5 +1,10 @@
-# main links links
 main:
+  - title: "About"
+    url: /
+
+  - title: "Research"
+    url: /research/
+
   - title: "Publications"
     url: /publications/
 
@@ -20,29 +25,3 @@ main:
     
   - title: "CV"
     url: /cv/
-
-
-
-
-# main links links
-# main:
-#   - title: "Publications"
-#    url: /publications/
-
-#   - title: "Grants & Awards"
-#     url: /talks/
-
-#   - title: "Teaching"
-#     url: /teaching/
-
-#   - title: "Portfolio"
-#     url: /portfolio/
-
-#   - title: "Services"
-#     url: /year-archive/
-
-#   - title: "CV"
-#     url: /cv/
-
-#  - title: "Resources"
-#    url: /markdown/
