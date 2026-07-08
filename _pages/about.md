@@ -34,11 +34,12 @@ redirect_from:
   <section class="recruiting-announcement" aria-label="Recruiting announcement">
     <div class="announcement-icon" aria-hidden="true"><i class="fa-solid fa-bullhorn"></i></div>
     <div class="announcement-copy">
-      <p class="section-label">Recruiting</p>
+      <p class="section-label">BIT Recruiting / 北理工招生</p>
       <h2>PhD and MSc positions available for September 2027 entry</h2>
-      <p>I am recruiting motivated PhD and MSc students interested in evolutionary computation, genetic programming, reinforcement learning, scheduling, and intelligent optimization.</p>
+      <p class="announcement-cn">北京理工大学自动化学院控制科学与工程、模式识别与智能系统方向招收2027年9月入学博士生和硕士生。</p>
+      <p>I am recruiting motivated PhD and MSc students at the School of Automation, Beijing Institute of Technology, for research in evolutionary computation, genetic programming, reinforcement learning, scheduling, and intelligent optimization.</p>
     </div>
-    <a href="mailto:mengxu@bit.edu.cn">Contact by email</a>
+    <a href="mailto:mengxu@bit.edu.cn">联系 / Email</a>
   </section>
 
   <section class="content-section">
