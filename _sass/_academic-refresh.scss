@@ -19,11 +19,13 @@
 body {
   background:
     linear-gradient(180deg, #fbfaf6 0%, #eef5f3 100%);
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
 }
 
 .page__footer {
-  position: static;
+  position: static !important;
+  bottom: auto !important;
+  clear: both;
   margin-top: 1.6rem;
   background: rgba(255, 253, 248, 0.94);
   border-top: 1px solid rgba(17, 104, 95, 0.16);
@@ -139,6 +141,10 @@ body {
 .home-redesign,
 .structured-page {
   color: var(--mx-text);
+}
+
+.structured-page {
+  padding-bottom: 1.2rem;
 }
 
 .home-redesign h2,
