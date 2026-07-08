@@ -13,6 +13,7 @@ author_profile: true
 
   <section class="content-section">
     <ul class="clean-list timeline-list">
+      <li><time>2025</time><span>2025 SIGEVO Dissertation Award, Honorable Mention, for the PhD thesis &quot;Advancing Genetic Programming for Learning Scheduling Heuristics&quot; (1,000 USD award).</span></li>
       <li><time>2023</time><span>Best Poster Runner-up, AJCAI PhD Forum (500 AUD award).</span></li>
       <li><time>PhD</time><span>Research outputs published in leading venues including IEEE Transactions on Evolutionary Computation, IEEE Transactions on Services Computing, IEEE Computational Intelligence Magazine, Expert Systems with Applications, and Artificial Intelligence Review.</span></li>
       <li><time>Ongoing</time><span>Works on dynamic scheduling, genetic programming, and reinforcement learning are indexed and continuously updated on Google Scholar.</span></li>
