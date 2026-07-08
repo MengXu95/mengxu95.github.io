@@ -63,9 +63,9 @@ author_profile: true
 <h2 class="pub-section-title">Software Copyright</h2>
 
 <ol>
-<li>Beijing Institute of Technology. 基于遗传算法的多无人机协同搜索路径规划软件V1.0. Registration no. 2020SR1634593, original acquisition, all rights, 2020-06-22.</li>
-<li>Beijing Institute of Technology. 基于规则的多无人机协同搜索路径规划软件V1.0. Registration no. 2020SR1634592, original acquisition, all rights, 2020-06-22.</li>
-<li>Beijing Institute of Technology. 基于策略的多无人机目标跟踪路径规划软件V1.0. Registration no. 2020SR1634594, original acquisition, all rights, 2020-06-22.</li>
+<li>Beijing Institute of Technology (北京理工大学). 基于遗传算法的多无人机协同搜索路径规划软件V1.0. Registration no. 2020SR1634593, original acquisition, all rights, 2020-06-22.</li>
+<li>Beijing Institute of Technology (北京理工大学). 基于规则的多无人机协同搜索路径规划软件V1.0. Registration no. 2020SR1634592, original acquisition, all rights, 2020-06-22.</li>
+<li>Beijing Institute of Technology (北京理工大学). 基于策略的多无人机目标跟踪路径规划软件V1.0. Registration no. 2020SR1634594, original acquisition, all rights, 2020-06-22.</li>
 </ol>
 
 </div>
