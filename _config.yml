@@ -107,7 +107,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true
   path                   : # blank (default) uses feed.xml
 
 
@@ -164,10 +164,15 @@ exclude:
   - assets/js/plugins
   - assets/js/vendor
   - config
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
   - package.json
+  - talkmap
   - tmp
   - vendor
 keep_files:
@@ -200,16 +205,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

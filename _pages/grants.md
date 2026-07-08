@@ -12,8 +12,23 @@ author_profile: true
   </section>
 
   <section class="content-section">
-    <ul class="clean-list timeline-list">
-      <li><time>2025</time><span><strong>Excellent Young Scientists Fund Project</strong> (Overseas), China.</span></li>
-    </ul>
+    <div class="grant-list">
+      <article>
+        <div class="grant-meta">
+          <span class="grant-year">2025</span>
+          <span class="grant-status">Awarded</span>
+        </div>
+        <div class="grant-body">
+          <h3>Excellent Young Scientists Fund Project (Overseas)</h3>
+          <p class="grant-summary">A national-level research grant supporting work on evolutionary computation and intelligent optimization for scheduling and decision making.</p>
+          <dl>
+            <div><dt>Funding Scheme</dt><dd>Excellent Young Scientists Fund Project (Overseas), China</dd></div>
+            <div><dt>Role</dt><dd>Principal investigator.</dd></div>
+            <div><dt>Research Scope</dt><dd>Evolutionary computation, genetic programming, reinforcement learning, and intelligent optimization for scheduling and decision making.</dd></div>
+            <div><dt>Host Institution</dt><dd>School of Automation, Beijing Institute of Technology (北京理工大学自动化学院)</dd></div>
+          </dl>
+        </div>
+      </article>
+    </div>
   </section>
 </div>

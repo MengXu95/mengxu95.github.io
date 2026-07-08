@@ -32,7 +32,7 @@ redirect_from:
       <p class="section-label">BIT Recruiting / 北理工招生</p>
       <h2>PhD and MSc positions available for September 2027 entry</h2>
       <p class="announcement-cn">北京理工大学自动化学院招收2027年9月入学博士生和硕士生。</p>
-      <p>I am recruiting motivated PhD and MSc students at the School of Automation, Beijing Institute of Technology (北京理工大学自动化学院), for research in evolutionary computation, genetic programming, reinforcement learning, scheduling, and intelligent optimization.</p>
+      <p>I am recruiting PhD and MSc students for evolutionary computation, genetic programming, reinforcement learning, scheduling, and intelligent optimization.</p>
     </div>
     <a href="mailto:mengxu@bit.edu.cn">联系 / Email</a>
   </aside>
