@@ -238,14 +238,6 @@ body {
   margin-bottom: 0;
 }
 
-.inline-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-.inline-actions a,
 .external-links a {
   display: inline-flex;
   align-items: center;
@@ -255,22 +247,6 @@ body {
   font-size: 0.78rem;
   font-weight: 800;
   text-decoration: none;
-}
-
-.inline-actions a:nth-child(1) {
-  background: var(--mx-teal);
-  color: #ffffff;
-}
-
-.inline-actions a:nth-child(2) {
-  background: var(--mx-indigo);
-  color: #ffffff;
-}
-
-.inline-actions a:nth-child(3) {
-  border-color: rgba(187, 95, 70, 0.35);
-  background: #fff3ed;
-  color: #8d3f2c;
 }
 
 .summary-facts {

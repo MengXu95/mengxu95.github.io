@@ -15,11 +15,6 @@ redirect_from:
       <h2>Professor in AI Scheduling and Evolutionary Computation</h2>
       <p>I am a Professor in the School of Automation at Beijing Institute of Technology (北京理工大学自动化学院), affiliated with Control Science and Engineering (控制科学与工程) and Pattern Recognition and Intelligent Systems (模式识别与智能系统). My research develops evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization methods for dynamic scheduling and decision making.</p>
       <p>Before joining Beijing Institute of Technology (北京理工大学), I worked as a Scientist at SIMTech, A*STAR Singapore, with a joint postdoctoral appointment at Nanyang Technological University.</p>
-      <div class="inline-actions">
-        <a href="/research/">Research Overview</a>
-        <a href="/publications/">Publications</a>
-        <a href="mailto:mengxu@bit.edu.cn">Contact</a>
-      </div>
     </div>
     <aside class="summary-facts" aria-label="Profile summary">
       <dl>
