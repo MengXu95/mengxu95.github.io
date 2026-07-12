@@ -11,10 +11,10 @@ redirect_from:
 <div class="home-redesign">
   <section class="profile-summary">
     <div class="summary-main">
-      <p class="section-label">Meng Xu / 许萌</p>
-      <h1>Professor in AI Scheduling and Evolutionary Computation</h1>
-      <p class="summary-deck">Learning interpretable decision rules for complex, dynamic systems.</p>
-      <p>I am a Professor in the School of Automation at Beijing Institute of Technology (北京理工大学自动化学院) and a member of the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室). I am affiliated with Control Science and Engineering (控制科学与工程) and Pattern Recognition and Intelligent Systems (模式识别与智能系统). My research develops evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization methods for dynamic scheduling and decision making.</p>
+      <p class="section-label">Professor · BIT / 北京理工大学</p>
+      <h1>Meng Xu / 许萌</h1>
+      <p class="summary-deck">AI Scheduling, Evolutionary Computation &amp; Data-Driven Optimization</p>
+      <p>I am a Professor in the School of Automation at Beijing Institute of Technology (北京理工大学自动化学院) and a member of the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室). My research develops evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization methods for dynamic scheduling and decision making.</p>
       <p>Before joining Beijing Institute of Technology (北京理工大学), I worked as a Scientist at SIMTech, A*STAR Singapore, with a joint postdoctoral appointment at Nanyang Technological University.</p>
     </div>
     <aside class="summary-facts" aria-label="Profile summary">
@@ -33,7 +33,7 @@ redirect_from:
       <p class="section-label">BIT Recruiting / 北理工招生</p>
       <h2>PhD and MSc positions available for September 2027 entry</h2>
       <p class="announcement-cn">北京理工大学自动化学院招收2027年9月入学博士生和硕士生。</p>
-      <p>I am recruiting PhD and MSc students at Beijing Institute of Technology and the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室) for evolutionary computation, genetic programming, reinforcement learning, scheduling, and intelligent optimization.</p>
+      <p>Positions are hosted by BIT and the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室). Research topics include evolutionary computation, genetic programming, reinforcement learning, scheduling, and intelligent optimization.</p>
     </div>
     <a href="mailto:mengxu@bit.edu.cn">联系 / Email</a>
   </aside>
