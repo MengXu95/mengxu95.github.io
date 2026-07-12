@@ -11,8 +11,9 @@ redirect_from:
 <div class="home-redesign">
   <section class="profile-summary">
     <div class="summary-main">
-      <p class="section-label">Current Position</p>
-      <h2>Professor in AI Scheduling and Evolutionary Computation</h2>
+      <p class="section-label">Meng Xu / 许萌</p>
+      <h1>Professor in AI Scheduling and Evolutionary Computation</h1>
+      <p class="summary-deck">Learning interpretable decision rules for complex, dynamic systems.</p>
       <p>I am a Professor in the School of Automation at Beijing Institute of Technology (北京理工大学自动化学院) and a member of the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室). I am affiliated with Control Science and Engineering (控制科学与工程) and Pattern Recognition and Intelligent Systems (模式识别与智能系统). My research develops evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization methods for dynamic scheduling and decision making.</p>
       <p>Before joining Beijing Institute of Technology (北京理工大学), I worked as a Scientist at SIMTech, A*STAR Singapore, with a joint postdoctoral appointment at Nanyang Technological University.</p>
     </div>
@@ -39,7 +40,7 @@ redirect_from:
 
   <section class="content-section">
     <div class="section-heading">
-      <p>Research Snapshot</p>
+      <p>Research / 研究</p>
       <h2>Learning robust decision rules for complex scheduling systems</h2>
     </div>
     <div class="research-list">
@@ -62,7 +63,7 @@ redirect_from:
   <section class="content-grid">
     <div class="content-section compact-section">
       <div class="section-heading">
-        <p>Latest</p>
+        <p>Latest / 动态</p>
         <h2>Recent Updates</h2>
       </div>
       <ul class="clean-list">
@@ -77,7 +78,7 @@ redirect_from:
 
     <div class="content-section compact-section">
       <div class="section-heading">
-        <p>Explore</p>
+        <p>Explore / 导航</p>
         <h2>Research Outputs</h2>
       </div>
       <nav class="resource-nav" aria-label="Research outputs">
@@ -94,7 +95,7 @@ redirect_from:
 
   <section class="content-section">
     <div class="section-heading">
-      <p>Background</p>
+      <p>Background / 经历</p>
       <h2>Appointments and Training</h2>
     </div>
     <ul class="clean-list timeline-list">
