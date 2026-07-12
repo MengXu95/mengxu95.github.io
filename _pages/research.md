@@ -9,7 +9,7 @@ author_profile: true
   <section class="content-section lead-section">
     <p class="section-label">Research Program</p>
     <h2>Learning interpretable decision rules for dynamic scheduling and industrial optimization</h2>
-    <p>At the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室), my work studies how evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization can learn robust scheduling heuristics for environments where jobs, resources, and objectives change over time.</p>
+    <p>At the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室), I study how evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization can be used to learn robust scheduling heuristics for environments where jobs, resources, and objectives change over time.</p>
   </section>
 
   <section class="content-section">
@@ -27,12 +27,12 @@ author_profile: true
         <p>Developing genetic programming methods including lexicase selection, diverse partner selection, semantic search, niching, and quality diversity for interpretable heuristic discovery.</p>
       </article>
       <article>
-        <h3>Multi-objective and Data-driven Optimization</h3>
+        <h3>Multi-Objective and Data-Driven Optimization</h3>
         <p>Designing methods for Pareto set learning, multi-objective decision making, and expensive optimization under dynamic industrial constraints.</p>
       </article>
       <article>
         <h3>AI for Manufacturing and Service Systems</h3>
-        <p>Applying scheduling and decision optimization methods to fog workflows, inventory control, replenishment, transshipment, and intelligent manufacturing operations.</p>
+        <p>Applying scheduling and decision optimization methods to fog-computing workflows, inventory control, replenishment, transshipment, and intelligent manufacturing operations.</p>
       </article>
     </div>
   </section>

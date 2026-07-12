@@ -9,15 +9,15 @@ author_profile: true
   <section class="content-section lead-section">
     <p class="section-label">News</p>
     <h2>Recent updates</h2>
-    <p>Selected academic, appointment, award, and publication updates.</p>
+    <p>Selected updates on appointments, awards, and publications.</p>
   </section>
 
   <section class="content-section">
     <ul class="clean-list timeline-list">
-      <li><time>2026</time><span>EvoSpeak was accepted by <i>IEEE Transactions on Evolutionary Computation</i>.</span></li>
-      <li><time>Apr 2026</time><span>I joined the School of Automation, Beijing Institute of Technology (北京理工大学自动化学院) as Professor in Control Science and Engineering (控制科学与工程) and Pattern Recognition and Intelligent Systems (模式识别与智能系统), and became affiliated with the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室).</span></li>
-      <li><time>2026</time><span>New works on advanced diverse partner selection, multitask genetic programming, and inventory policy optimization were added to my publication list.</span></li>
-      <li><time>2025</time><span>Multiple new publications appeared in CEC, IEEE Transactions on Evolutionary Computation, and Artificial Intelligence Review.</span></li>
+      <li><time>2026</time><span>EvoSpeak was accepted for publication in <i>IEEE Transactions on Evolutionary Computation</i>.</span></li>
+      <li><time>Apr 2026</time><span>I joined the School of Automation, Beijing Institute of Technology (北京理工大学自动化学院) as a professor and became a member of the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室).</span></li>
+      <li><time>2026</time><span>I added new publications on advanced diverse partner selection, multitask genetic programming, and inventory policy optimization.</span></li>
+      <li><time>2025</time><span>Several new papers appeared in the CEC proceedings and in <i>IEEE Transactions on Evolutionary Computation</i> and <i>Artificial Intelligence Review</i>.</span></li>
       <li><time>Oct 2024 - Mar 2026</time><span>I held a joint postdoctoral appointment at Nanyang Technological University, Singapore, collaborating with Professor Yew-Soon Ong.</span></li>
       <li><time>Jul 2024 - Mar 2026</time><span>I worked as a Scientist at the Singapore Institute of Manufacturing Technology (SIMTech), A*STAR, Singapore.</span></li>
       <li><time>Jul 2024</time><span>I completed my PhD at Victoria University of Wellington.</span></li>

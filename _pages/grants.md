@@ -19,7 +19,7 @@ author_profile: true
           <span class="grant-status">Awarded</span>
         </div>
         <div class="grant-body">
-          <h3>Excellent Young Scientists Fund Project (Overseas)</h3>
+          <h3><span class="accolade">Excellent Young Scientists Fund Project (Overseas)</span></h3>
           <p class="grant-summary">A national-level research grant supporting work on evolutionary computation and intelligent optimization for scheduling and decision making.</p>
           <dl>
             <div><dt>Funding Scheme</dt><dd>Excellent Young Scientists Fund Project (Overseas), China</dd></div>

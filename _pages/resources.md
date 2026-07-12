@@ -9,7 +9,7 @@ author_profile: true
   <section class="content-section lead-section">
     <p class="section-label">Resources</p>
     <h2>Research code and public materials</h2>
-    <p>This page tracks public resources most relevant to current research on genetic programming, reinforcement learning, scheduling, and industrial decision optimization.</p>
+    <p>This page tracks the public resources most relevant to my current research on genetic programming, reinforcement learning, scheduling, and industrial decision optimization.</p>
   </section>
 
   <section class="content-section">
@@ -21,7 +21,7 @@ author_profile: true
       <article><div><h3><a target="_blank" href="https://github.com/MengXu95/Fog-Computing">Fog-Computing</a></h3><span>Java</span></div><p>Dynamic workflow scheduling code and resources for fog/cloud computing scenarios.</p></article>
       <article><div><h3><a target="_blank" href="https://github.com/MengXu95/InventoryControl">InventoryControl</a></h3><span>Python</span></div><p>Research code for dynamic inventory control, replenishment, transshipment, and decision optimization experiments.</p></article>
       <article><div><h3><a target="_blank" href="https://github.com/MengXu95/GPDFJSS">GPDFJSS</a></h3><span>Python</span></div><p>Genetic programming methods for dynamic flexible job shop scheduling.</p></article>
-      <article><div><h3><a target="_blank" href="https://github.com/MengXu95/NichGPDRL">NichGPDRL</a></h3><span>Python</span></div><p>Niching genetic programming and deep reinforcement learning implementations for scheduling research.</p></article>
+      <article><div><h3><a target="_blank" href="https://github.com/MengXu95/NichGPDRL">NichGPDRL</a></h3><span>Python</span></div><p>Implementations of niching genetic programming and deep reinforcement learning for scheduling research.</p></article>
       <article><div><h3><a target="_blank" href="https://github.com/MengXu95/GPDFJSS-MENG">GPDFJSS-MENG</a></h3><span>Java</span></div><p>Extended implementation and experiments for dynamic flexible job shop scheduling research.</p></article>
     </div>
   </section>
@@ -29,9 +29,9 @@ author_profile: true
   <section class="content-section">
     <div class="section-heading">
       <p>Profiles</p>
-      <h2>Publication resources</h2>
+      <h2>Research profiles</h2>
     </div>
-    <nav class="resource-nav" aria-label="Publication resources">
+    <nav class="resource-nav" aria-label="Research profiles">
       <a target="_blank" href="https://scholar.google.com/citations?user=xEiY6-AAAAAJ&hl=en"><span>Google Scholar</span><small>Latest papers and citation records.</small></a>
       <a target="_blank" href="https://orcid.org/0000-0002-9930-0403"><span>ORCID</span><small>Persistent researcher identifier and publication metadata.</small></a>
     </nav>

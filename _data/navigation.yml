@@ -20,8 +20,5 @@ main:
   - title: "Grants"
     url: /grants/
 
-  - title: "Activities"
-    url: /professional-activities/
-    
   - title: "CV"
     url: /cv/

@@ -7,7 +7,7 @@ author_profile: true
 
 <div class="structured-page publications-page">
 
-<p class="publication-note">The complete and latest publication list is available on <a target="_blank" href="{{site.author.googlescholar}}">my Google Scholar profile</a>. The selected list below is grouped by publication type for quick browsing.</p>
+<p class="publication-note">The complete, up-to-date publication list is available on <a target="_blank" href="{{site.author.googlescholar}}">my Google Scholar profile</a>. The selected publications below are grouped by type for quick browsing.</p>
 
 <h2 class="pub-section-title">Journal Papers</h2>
 
@@ -18,9 +18,9 @@ author_profile: true
 <li>Yanchi Li, Xinyi Wu, Wenyin Gong, <strong>Meng Xu</strong>, Yubo Wang, and Qiong Gu. &quot;Evolutionary Competitive Multiobjective Multitasking: One-Pass Optimization of Heterogeneous Pareto Solutions.&quot; <i>IEEE Transactions on Evolutionary Computation</i>, 2025. DOI: 10.1109/TEVC.2024.3524508.</li>
 <li><strong>Meng Xu</strong>, Yi Mei, Fangfang Zhang, and Mengjie Zhang. &quot;Learn to Optimise for Job Shop Scheduling: A Survey with Comparison Between Genetic Programming and Reinforcement Learning.&quot; <i>Artificial Intelligence Review</i>, 2025. DOI: 10.1007/s10462-024-11059-9.</li>
 <li><strong>Meng Xu</strong>, Yi Mei, Fangfang Zhang, Yew Soon Ong, and Mengjie Zhang. &quot;Pareto Set Learning Through Genetic Programming for Multi-Objective Dynamic Scheduling.&quot; <i>IEEE Transactions on Evolutionary Computation</i>, 2025. DOI: 10.1109/TEVC.2025.3568375.</li>
-<li><strong>Meng Xu</strong>, Yi Mei, Fangfang Zhang*, and Mengjie Zhang. &quot;Genetic Programming and Reinforcement Learning on Learning Heuristics for Dynamic Scheduling: A Preliminary Comparison.&quot; <i>IEEE Computational Intelligence Magazine</i>, vol. 19, no. 2, pp. 18-33, 2024. DOI: 10.1109/MCI.2024.3363970. <span style="color: #b00020;"><strong>Research Frontier</strong></span>.</li>
+<li><strong>Meng Xu</strong>, Yi Mei, Fangfang Zhang*, and Mengjie Zhang. &quot;Genetic Programming and Reinforcement Learning on Learning Heuristics for Dynamic Scheduling: A Preliminary Comparison.&quot; <i>IEEE Computational Intelligence Magazine</i>, vol. 19, no. 2, pp. 18-33, 2024. DOI: 10.1109/MCI.2024.3363970. <strong class="accolade">Research Frontier</strong>.</li>
 <li><strong>Meng Xu</strong>, Yi Mei, Fangfang Zhang, and Mengjie Zhang. &quot;Niching Genetic Programming to Learn Actions for Deep Reinforcement Learning in Dynamic Flexible Scheduling.&quot; <i>IEEE Transactions on Evolutionary Computation</i>, 2024.</li>
-<li><strong>Meng Xu</strong>, Yi Mei, Fangfang Zhang*, and Mengjie Zhang. &quot;Genetic Programming for Dynamic Flexible Job Shop Scheduling: Evolution with Single Individuals and Ensembles.&quot; <i>IEEE Transactions on Evolutionary Computation</i>, vol. 28, no. 6, pp. 1761-1775, 2024. DOI: 10.1109/TEVC.2023.3334626. <span style="color: #b00020;"><strong>Selected as a Popular Paper</strong></span>.</li>
+<li><strong>Meng Xu</strong>, Yi Mei, Fangfang Zhang*, and Mengjie Zhang. &quot;Genetic Programming for Dynamic Flexible Job Shop Scheduling: Evolution with Single Individuals and Ensembles.&quot; <i>IEEE Transactions on Evolutionary Computation</i>, vol. 28, no. 6, pp. 1761-1775, 2024. DOI: 10.1109/TEVC.2023.3334626. <strong class="accolade">Selected as a Popular Paper</strong>.</li>
 <li><strong>Meng Xu</strong>, Yi Mei, Fangfang Zhang, and Mengjie Zhang. &quot;Genetic Programming with Lexicase Selection for Large-scale Dynamic Flexible Job Shop Scheduling.&quot; <i>IEEE Transactions on Evolutionary Computation</i>, 2023.</li>
 <li><strong>Meng Xu</strong>, Yi Mei, Shiqiang Zhu, Beibei Zhang, Tian Xiang, Fangfang Zhang, and Mengjie Zhang. &quot;Genetic Programming for Dynamic Workflow Scheduling in Fog Computing.&quot; <i>IEEE Transactions on Services Computing</i>, 2023.</li>
 </ol>
@@ -49,7 +49,7 @@ author_profile: true
 <h2 class="pub-section-title">Thesis</h2>
 
 <ol>
-<li><strong>Meng Xu</strong>. &quot;Advancing Genetic Programming for Learning Scheduling Heuristics.&quot; PhD thesis, Te Herenga Waka-Victoria University of Wellington, 2024. <span style="color: #b00020;"><strong>2025 SIGEVO Dissertation Award, Honorable Mention</strong></span>.</li>
+<li><strong>Meng Xu</strong>. &quot;Advancing Genetic Programming for Learning Scheduling Heuristics.&quot; PhD thesis, Te Herenga Waka-Victoria University of Wellington, 2024. <strong class="accolade">2025 SIGEVO Dissertation Award: Honorable Mention</strong>.</li>
 </ol>
 
 <h2 class="pub-section-title">Patents</h2>
@@ -60,12 +60,12 @@ author_profile: true
 <li><strong>Meng Xu</strong> and Jinsheng Chen. Automated Learning of Transshipment and Replenishment Policies for Dynamic Multi-Site Inventory Management. TD-SIMT-CPPS-24-00403, 2025-03-17.</li>
 </ol>
 
-<h2 class="pub-section-title">Software Copyright</h2>
+<h2 class="pub-section-title">Software Copyright Registrations</h2>
 
 <ol>
-<li>Beijing Institute of Technology (北京理工大学). 基于遗传算法的多无人机协同搜索路径规划软件V1.0. Registration no. 2020SR1634593, original acquisition, all rights, 2020-06-22.</li>
-<li>Beijing Institute of Technology (北京理工大学). 基于规则的多无人机协同搜索路径规划软件V1.0. Registration no. 2020SR1634592, original acquisition, all rights, 2020-06-22.</li>
-<li>Beijing Institute of Technology (北京理工大学). 基于策略的多无人机目标跟踪路径规划软件V1.0. Registration no. 2020SR1634594, original acquisition, all rights, 2020-06-22.</li>
+<li>Beijing Institute of Technology (北京理工大学). 基于遗传算法的多无人机协同搜索路径规划软件V1.0. Registration No. 2020SR1634593; acquisition method: original; scope of rights: all rights; date: 2020-06-22.</li>
+<li>Beijing Institute of Technology (北京理工大学). 基于规则的多无人机协同搜索路径规划软件V1.0. Registration No. 2020SR1634592; acquisition method: original; scope of rights: all rights; date: 2020-06-22.</li>
+<li>Beijing Institute of Technology (北京理工大学). 基于策略的多无人机目标跟踪路径规划软件V1.0. Registration No. 2020SR1634594; acquisition method: original; scope of rights: all rights; date: 2020-06-22.</li>
 </ol>
 
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Honours/Awards"
+title: "Honours and Awards"
 permalink: /honours-awards/
 author_profile: true
 ---
@@ -13,10 +13,10 @@ author_profile: true
 
   <section class="content-section">
     <ul class="clean-list timeline-list">
-      <li><time>2025</time><span>2025 SIGEVO Dissertation Award, Honorable Mention, for the PhD thesis &quot;Advancing Genetic Programming for Learning Scheduling Heuristics&quot; (1,000 USD award).</span></li>
-      <li><time>2023</time><span>Best Poster Runner-up, AJCAI PhD Forum (500 AUD award).</span></li>
-      <li><time>PhD</time><span>Research outputs published in leading venues including IEEE Transactions on Evolutionary Computation, IEEE Transactions on Services Computing, IEEE Computational Intelligence Magazine, Expert Systems with Applications, and Artificial Intelligence Review.</span></li>
-      <li><time>Ongoing</time><span>Works on dynamic scheduling, genetic programming, and reinforcement learning are indexed and continuously updated on Google Scholar.</span></li>
+      <li><time>2025</time><span><strong class="accolade">SIGEVO Dissertation Award: Honorable Mention</strong> for the PhD thesis &quot;Advancing Genetic Programming for Learning Scheduling Heuristics&quot; (USD 1,000).</span></li>
+      <li><time>2024</time><span>The paper &quot;Genetic Programming for Dynamic Flexible Job Shop Scheduling: Evolution with Single Individuals and Ensembles&quot; was <strong class="accolade">selected as a Popular Paper</strong> by <i>IEEE Transactions on Evolutionary Computation</i>.</span></li>
+      <li><time>2024</time><span>The article &quot;Genetic Programming and Reinforcement Learning on Learning Heuristics for Dynamic Scheduling: A Preliminary Comparison&quot; received <strong class="accolade">Research Frontier</strong> recognition in <i>IEEE Computational Intelligence Magazine</i>.</span></li>
+      <li><time>2023</time><span><strong class="accolade">Best Poster Runner-up</strong>, AJCAI PhD Forum (AUD 500).</span></li>
     </ul>
   </section>
 </div>

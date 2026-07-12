@@ -839,6 +839,17 @@ body {
   color: var(--mx-ink);
 }
 
+strong.accolade,
+.publications-page li strong.accolade,
+.accolade {
+  padding: 0.06em 0.26em;
+  background: rgba(155, 28, 49, 0.09);
+  color: var(--mx-bit-red) !important;
+  font-weight: 820;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 .pub-section-title {
   margin: 1.35rem 0 0.55rem;
   padding: 0.48rem 0.65rem;

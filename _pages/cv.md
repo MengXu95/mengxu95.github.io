@@ -11,7 +11,7 @@ redirect_from:
   <section class="content-section lead-section">
     <p class="section-label">Curriculum Vitae</p>
     <h2>Meng Xu (许萌)</h2>
-    <p>Professor in the School of Automation at Beijing Institute of Technology (北京理工大学自动化学院) and member of the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室), affiliated with Control Science and Engineering (控制科学与工程) and Pattern Recognition and Intelligent Systems (模式识别与智能系统). My work focuses on evolutionary computation, genetic programming, reinforcement learning, and intelligent optimization for scheduling and decision making.</p>
+    <p>I am a professor in the School of Automation at Beijing Institute of Technology (北京理工大学自动化学院) and a member of the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室), with affiliations in Control Science and Engineering (控制科学与工程) and Pattern Recognition and Intelligent Systems (模式识别与智能系统). My work focuses on evolutionary computation, genetic programming, reinforcement learning, and intelligent optimization for scheduling and decision making.</p>
   </section>
 
   <section class="content-section">
@@ -20,9 +20,9 @@ redirect_from:
       <h2>Professional Experience</h2>
     </div>
     <ul class="clean-list timeline-list">
-      <li><time>Apr 2026 - Present</time><span><strong>Professor</strong>, School of Automation, Beijing Institute of Technology (北京理工大学自动化学院), China; State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室); Control Science and Engineering (控制科学与工程); Pattern Recognition and Intelligent Systems (模式识别与智能系统). Research on evolutionary computation, reinforcement learning, and intelligent optimization for scheduling and decision making.</span></li>
-      <li><time>Jul 2024 - Mar 2026</time><span><strong>Scientist</strong>, Singapore Institute of Manufacturing Technology (SIMTech), A*STAR, Singapore. Research and development on AI-driven optimization and scheduling methods for intelligent manufacturing.</span></li>
-      <li><time>Oct 2024 - Mar 2026</time><span><strong>Joint-appointment Postdoctoral Research Fellow</strong>, Nanyang Technological University, Singapore. Supervisor: Professor Yew-Soon Ong.</span></li>
+      <li><time>Apr 2026 - Present</time><span><strong>Professor</strong>, School of Automation, Beijing Institute of Technology (北京理工大学自动化学院), China; member of the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室); affiliated with Control Science and Engineering (控制科学与工程) and Pattern Recognition and Intelligent Systems (模式识别与智能系统). Research focuses on evolutionary computation, reinforcement learning, and intelligent optimization for scheduling and decision making.</span></li>
+      <li><time>Jul 2024 - Mar 2026</time><span><strong>Scientist</strong>, Singapore Institute of Manufacturing Technology (SIMTech), A*STAR, Singapore. Conducted research and development on AI-driven optimization and scheduling for intelligent manufacturing.</span></li>
+      <li><time>Oct 2024 - Mar 2026</time><span><strong>Postdoctoral Research Fellow (joint appointment)</strong>, Nanyang Technological University, Singapore. Supervisor: Professor Yew-Soon Ong.</span></li>
       <li><time>Oct 2020 - Apr 2022</time><span><strong>Algorithm Engineer</strong>, Zhejiang Lab, China. Built a dynamic workflow scheduling simulator for multi-robot cloud-side scenarios and proposed a genetic programming approach for workflow scheduling.</span></li>
       <li><time>Jul 2019 - Sep 2019</time><span><strong>Algorithm Engineer</strong>, Alibaba, China. Developed a real-time pedestrian detection and tracking pipeline using RGB-D data.</span></li>
     </ul>
@@ -35,7 +35,7 @@ redirect_from:
     </div>
     <ul class="clean-list timeline-list">
       <li><time>Nov 2020 - Jul 2024</time><span><strong>PhD in Computer Science</strong>, Victoria University of Wellington, New Zealand. Supervisors: Yi Mei, Fangfang Zhang, and Mengjie Zhang.</span></li>
-      <li><time>2017 - 2020</time><span><strong>MSc in Control Science and Engineering</strong>, School of Automation, Beijing Institute of Technology (北京理工大学自动化学院), China. Recommended admission for graduate study.</span></li>
+      <li><time>2017 - 2020</time><span><strong>MSc in Control Science and Engineering</strong>, School of Automation, Beijing Institute of Technology (北京理工大学自动化学院), China. Recommended for admission to graduate study.</span></li>
       <li><time>2013 - 2017</time><span><strong>BSc in Automation</strong>, School of Automation, Beijing Institute of Technology (北京理工大学自动化学院), China.</span></li>
     </ul>
   </section>
@@ -58,7 +58,7 @@ redirect_from:
       <h2>Academic Presentation</h2>
     </div>
     <ul class="clean-list timeline-list">
-      <li><time>Nov 2023</time><span><strong>Queensland University, Brisbane, Australia.</strong> Paper presentation at AJCAI and poster presentation at the AJCAI PhD Forum; received Best Poster Runner-up and a 500 AUD award.</span></li>
+      <li><time>Nov 2023</time><span><strong>Queensland University, Brisbane, Australia.</strong> Presented a paper at AJCAI and a poster at the AJCAI PhD Forum; received the <strong class="accolade">Best Poster Runner-up</strong> award (AUD 500).</span></li>
     </ul>
   </section>
 
