@@ -14,7 +14,7 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
+<div id="main"{% if page.url == "/" %} class="home-shell"{% endif %} role="main">
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -72,6 +72,10 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
+
+  {% if page.url == "/" %}
+    {% include climbing-game.html %}
+  {% endif %}
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
