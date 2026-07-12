@@ -185,6 +185,32 @@
   transition: filter 0.18s ease, opacity 0.18s ease, stroke 0.18s ease;
 }
 
+.climb-hold__grip {
+  fill: none;
+  pointer-events: none;
+  stroke: rgba(38, 54, 62, 0.42);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.45;
+}
+
+.climb-hold--jug .climb-hold__grip {
+  stroke-width: 2.2;
+}
+
+.climb-hold--crimp .climb-hold__grip {
+  stroke-width: 1.75;
+}
+
+.climb-hold--sloper .climb-hold__grip {
+  stroke: rgba(255, 255, 255, 0.58);
+  stroke-width: 1.3;
+}
+
+.climb-hold--pinch .climb-hold__grip {
+  stroke-width: 1.1;
+}
+
 .climb-hold__shine {
   fill: none;
   stroke: rgba(255, 255, 255, 0.55);
@@ -255,7 +281,7 @@
 }
 
 .climb-girl__leg {
-  stroke: #27394a;
+  stroke: #c78c70;
   stroke-width: 7;
 }
 
@@ -267,26 +293,78 @@
 }
 
 .climb-girl__arm {
-  stroke: #b9785b;
-  stroke-width: 5;
+  stroke: #c78c70;
+  stroke-width: 5.8;
 }
 
-.climb-girl__top {
-  fill: #bb5f46;
-  stroke: #773f35;
+.climb-girl__shoulder {
+  fill: #c78c70;
+  stroke: #9a624f;
+  stroke-width: 0.7;
+}
+
+.climb-girl__tank {
+  fill: #a63f58;
+  stroke: #6f2639;
   stroke-width: 1;
+}
+
+.climb-girl__racerback {
+  fill: #d7a087;
+  stroke: #8e5948;
+  stroke-width: 0.65;
+}
+
+.climb-girl__muscle {
+  fill: none;
+  stroke: rgba(105, 54, 46, 0.72);
+  stroke-linecap: round;
+  stroke-width: 0.9;
+}
+
+.climb-girl__shorts {
+  fill: #526b83;
+  stroke: #304354;
+  stroke-linejoin: round;
+  stroke-width: 1;
+}
+
+.climb-girl__chalk-strap,
+.climb-girl__chalk-rim {
+  fill: none;
+  stroke-linecap: round;
+}
+
+.climb-girl__chalk-strap {
+  stroke: #303b43;
+  stroke-width: 1.5;
+}
+
+.climb-girl__chalk-bag {
+  fill: #9bcfc2;
+  stroke: #477c72;
+  stroke-width: 0.9;
+}
+
+.climb-girl__chalk-rim {
+  stroke: #f7fbfa;
+  stroke-width: 1.1;
+}
+
+.climb-girl__chalk {
+  fill: rgba(255, 255, 255, 0.9);
 }
 
 .climb-girl__harness {
   fill: none;
-  stroke: #e0ad2f;
+  stroke: #e2bd65;
   stroke-linecap: round;
   stroke-width: 2.5;
 }
 
 .climb-girl__head {
-  fill: #bd8062;
-  stroke: #7f4d3b;
+  fill: #c78c70;
+  stroke: #8e5948;
   stroke-width: 0.8;
 }
 
