@@ -58,19 +58,19 @@ body {
 
 @media (min-width: 57.8125em) {
   .sidebar {
-    width: 19%;
+    width: 23%;
   }
 
   .page,
   .archive {
-    width: 79%;
+    width: 75%;
     padding-left: 3.2%;
   }
 }
 
 @media (min-width: 80em) {
   .sidebar {
-    max-width: 280px;
+    max-width: 320px;
   }
 
   .page,
@@ -142,6 +142,94 @@ body {
 .author__urls .icon-pad-right {
   padding-right: 0;
   margin-top: 0.2rem;
+}
+
+.author__urls > .author__desktop {
+  margin-bottom: 0.82rem;
+  overflow-wrap: break-word;
+}
+
+.author__detail-copy,
+.author__detail-label,
+.author__detail-value {
+  display: block;
+  min-width: 0;
+}
+
+.author__detail-label {
+  margin-bottom: 0.14rem;
+  color: var(--mx-muted);
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.author__detail-value {
+  color: var(--mx-text);
+  font-size: 0.76rem;
+  line-height: 1.48;
+}
+
+.author__urls > .author__desktop .icon-pad-right {
+  color: var(--mx-teal);
+  font-size: 0.76rem;
+  margin-top: 0.12rem;
+}
+
+.author__links-heading {
+  margin: 1rem 0 0.34rem;
+  padding-top: 0.72rem;
+  border-top: 1px solid rgba(17, 104, 95, 0.16);
+  color: var(--mx-muted);
+  font-size: 0.64rem !important;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.25 !important;
+  text-transform: uppercase;
+}
+
+.author__urls a {
+  min-height: 1.9rem;
+  margin-bottom: 0.08rem;
+  padding: 0.26rem 0.36rem;
+  border-radius: 4px;
+  align-items: center;
+  transition: background-color 0.16s ease, color 0.16s ease;
+}
+
+.author__urls a:hover,
+.author__urls a:focus-visible {
+  color: var(--mx-teal-dark);
+  background: rgba(17, 104, 95, 0.07);
+  text-decoration: none;
+}
+
+@media (max-width: 57.75em) {
+  .sidebar {
+    position: relative;
+    z-index: 20;
+  }
+
+  .author__urls-wrapper,
+  .author__urls {
+    z-index: 30;
+  }
+
+  .author__urls {
+    width: calc(100vw - 2rem);
+    max-width: 20rem;
+    box-sizing: border-box;
+  }
+
+  .author__links-heading {
+    margin-top: 0;
+  }
+
+  .author__urls a {
+    width: 100%;
+  }
 }
 
 .home-redesign,
