@@ -20,7 +20,7 @@ redirect_from:
       <dl>
         <div><dt>Affiliation / 隶属单位</dt><dd>School of Automation, Beijing Institute of Technology<br>北京理工大学自动化学院</dd></div>
         <div><dt>Discipline</dt><dd>Control Science and Engineering (控制科学与工程); Pattern Recognition and Intelligent Systems (模式识别与智能系统)</dd></div>
-        <div><dt>Laboratories</dt><dd>State Key Lab of Autonomous Intelligent Unmanned Systems<br>自主智能无人系统全国重点实验室<br>Beijing Key Laboratory of Lightweight Intelligent System</dd></div>
+        <div><dt>Laboratories</dt><dd>State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室)<br>Beijing Key Laboratory of Lightweight Intelligent System (轻量化智能系统北京市重点实验室)</dd></div>
         <div><dt>Email</dt><dd><a href="mailto:mengxu@bit.edu.cn">mengxu@bit.edu.cn</a></dd></div>
       </dl>
     </aside>
