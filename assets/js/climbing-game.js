@@ -147,6 +147,27 @@
     var currentStep = 0;
     var busy = false;
     var ended = false;
+    var roundId = 0;
+    var pendingTimers = new Set();
+
+    function scheduleForCurrentRound(callback, delay) {
+      var scheduledRound = roundId;
+      var timer = window.setTimeout(function () {
+        pendingTimers.delete(timer);
+        if (scheduledRound === roundId) {
+          callback();
+        }
+      }, delay);
+      pendingTimers.add(timer);
+    }
+
+    function cancelPendingRoundWork() {
+      roundId += 1;
+      pendingTimers.forEach(function (timer) {
+        window.clearTimeout(timer);
+      });
+      pendingTimers.clear();
+    }
 
     holds.forEach(function (hold) {
       holdData.set(hold.id, hold);
@@ -289,7 +310,7 @@
         });
       }
 
-      window.setTimeout(function () {
+      scheduleForCurrentRound(function () {
         showResult("failure", "Take a breath", "Almost!", message + " Reset and try the sequence again.");
         busy = false;
       }, 430);
@@ -304,7 +325,11 @@
       celebrate();
       showResult("success", "Route complete", "Top!", "正在记录你的完攀序号...");
 
+      var winningRound = roundId;
       fetchCompletionNumber().then(function (number) {
+        if (winningRound !== roundId || !ended) {
+          return;
+        }
         resultMessage.textContent = "你是第 " + number + " 个成功完攀的攀岩人，祝你 Paper 必中！";
         busy = false;
       });
@@ -339,7 +364,7 @@
       updateProgress();
       prompt.textContent = "Hold secured";
 
-      window.setTimeout(function () {
+      scheduleForCurrentRound(function () {
         if (currentStep === route.length - 1) {
           win();
         } else {
@@ -350,6 +375,7 @@
     }
 
     function resetGame() {
+      cancelPendingRoundWork();
       currentStep = 0;
       busy = false;
       ended = false;
