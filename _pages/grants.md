@@ -26,6 +26,7 @@ author_profile: true
             <div><dt>Role</dt><dd>Principal investigator.</dd></div>
             <div><dt>Research Scope</dt><dd>Evolutionary computation, genetic programming, reinforcement learning, and intelligent optimization for scheduling and decision making.</dd></div>
             <div><dt>Host Institution</dt><dd>School of Automation, Beijing Institute of Technology (北京理工大学自动化学院)</dd></div>
+            <div><dt>Laboratory</dt><dd>State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室)</dd></div>
           </dl>
         </div>
       </article>

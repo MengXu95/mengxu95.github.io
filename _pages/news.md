@@ -15,7 +15,7 @@ author_profile: true
   <section class="content-section">
     <ul class="clean-list timeline-list">
       <li><time>2026</time><span>EvoSpeak was accepted by <i>IEEE Transactions on Evolutionary Computation</i>.</span></li>
-      <li><time>Apr 2026</time><span>I joined the School of Automation, Beijing Institute of Technology (北京理工大学自动化学院) as Professor in Control Science and Engineering (控制科学与工程) and Pattern Recognition and Intelligent Systems (模式识别与智能系统).</span></li>
+      <li><time>Apr 2026</time><span>I joined the School of Automation, Beijing Institute of Technology (北京理工大学自动化学院) as Professor in Control Science and Engineering (控制科学与工程) and Pattern Recognition and Intelligent Systems (模式识别与智能系统), and became affiliated with the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室).</span></li>
       <li><time>2026</time><span>New works on advanced diverse partner selection, multitask genetic programming, and inventory policy optimization were added to my publication list.</span></li>
       <li><time>2025</time><span>Multiple new publications appeared in CEC, IEEE Transactions on Evolutionary Computation, and Artificial Intelligence Review.</span></li>
       <li><time>Oct 2024 - Mar 2026</time><span>I held a joint postdoctoral appointment at Nanyang Technological University, Singapore, collaborating with Professor Yew-Soon Ong.</span></li>

@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Meng Xu"
 title_separator          : "-"
 name                     : &name "Meng Xu (许萌)"
-description              : &description "Academic homepage of Meng Xu, Professor in AI scheduling, evolutionary computation, and data-driven optimization."
+description              : &description "Academic homepage of Meng Xu, Professor at the State Key Lab of Autonomous Intelligent Unmanned Systems, working on AI scheduling, evolutionary computation, and data-driven optimization."
 url                      : https://mengxu95.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MengXu95/mengxu95.github.io"
@@ -28,6 +28,7 @@ author:
   location         : "Beijing, China"
   employer         : "School of Automation, Beijing Institute of Technology (北京理工大学自动化学院)"
   discipline       : "Control Science and Engineering (控制科学与工程); Pattern Recognition and Intelligent Systems (模式识别与智能系统)"
+  laboratory       : "State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室)"
   uri              : # URL
   email            : "mengxu@bit.edu.cn"
 

@@ -11,7 +11,7 @@ redirect_from:
   <section class="content-section lead-section">
     <p class="section-label">Curriculum Vitae</p>
     <h2>Meng Xu (许萌)</h2>
-    <p>Professor in the School of Automation at Beijing Institute of Technology (北京理工大学自动化学院), affiliated with Control Science and Engineering (控制科学与工程) and Pattern Recognition and Intelligent Systems (模式识别与智能系统). My work focuses on evolutionary computation, genetic programming, reinforcement learning, and intelligent optimization for scheduling and decision making.</p>
+    <p>Professor in the School of Automation at Beijing Institute of Technology (北京理工大学自动化学院) and member of the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室), affiliated with Control Science and Engineering (控制科学与工程) and Pattern Recognition and Intelligent Systems (模式识别与智能系统). My work focuses on evolutionary computation, genetic programming, reinforcement learning, and intelligent optimization for scheduling and decision making.</p>
   </section>
 
   <section class="content-section">
@@ -20,7 +20,7 @@ redirect_from:
       <h2>Professional Experience</h2>
     </div>
     <ul class="clean-list timeline-list">
-      <li><time>Apr 2026 - Present</time><span><strong>Professor</strong>, School of Automation, Beijing Institute of Technology (北京理工大学自动化学院), China; Control Science and Engineering (控制科学与工程); Pattern Recognition and Intelligent Systems (模式识别与智能系统). Research on evolutionary computation, reinforcement learning, and intelligent optimization for scheduling and decision making.</span></li>
+      <li><time>Apr 2026 - Present</time><span><strong>Professor</strong>, School of Automation, Beijing Institute of Technology (北京理工大学自动化学院), China; State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室); Control Science and Engineering (控制科学与工程); Pattern Recognition and Intelligent Systems (模式识别与智能系统). Research on evolutionary computation, reinforcement learning, and intelligent optimization for scheduling and decision making.</span></li>
       <li><time>Jul 2024 - Mar 2026</time><span><strong>Scientist</strong>, Singapore Institute of Manufacturing Technology (SIMTech), A*STAR, Singapore. Research and development on AI-driven optimization and scheduling methods for intelligent manufacturing.</span></li>
       <li><time>Oct 2024 - Mar 2026</time><span><strong>Joint-appointment Postdoctoral Research Fellow</strong>, Nanyang Technological University, Singapore. Supervisor: Professor Yew-Soon Ong.</span></li>
       <li><time>Oct 2020 - Apr 2022</time><span><strong>Algorithm Engineer</strong>, Zhejiang Lab, China. Built a dynamic workflow scheduling simulator for multi-robot cloud-side scenarios and proposed a genetic programming approach for workflow scheduling.</span></li>

@@ -9,7 +9,7 @@ author_profile: true
   <section class="content-section lead-section">
     <p class="section-label">Research Program</p>
     <h2>Learning interpretable decision rules for dynamic scheduling and industrial optimization</h2>
-    <p>My work studies how evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization can learn robust scheduling heuristics for environments where jobs, resources, and objectives change over time.</p>
+    <p>At the State Key Lab of Autonomous Intelligent Unmanned Systems (自主智能无人系统全国重点实验室), my work studies how evolutionary computation, genetic programming, reinforcement learning, and data-driven optimization can learn robust scheduling heuristics for environments where jobs, resources, and objectives change over time.</p>
   </section>
 
   <section class="content-section">
