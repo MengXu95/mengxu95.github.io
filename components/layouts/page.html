@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<main id="site-main"{% if page.permalink == '/' %} class="homepage-grid"{% endif %}>
+  <aside class="profile-rail{% unless page.permalink == '/' %} sticky{% endunless %}" aria-label="Author profile">
+    {% include profile.html %}
+  </aside>
+  <article class="content-page" itemscope itemtype="https://schema.org/ProfilePage">
+    <div class="content-page__inner">
+      <header class="content-page__header{% if page.permalink == '/' %} content-page__header--home{% endif %}">
+        <h1 class="content-page__title" itemprop="headline">{{ page.title }}</h1>
+      </header>
+      <section class="content-page__body" itemprop="mainContentOfPage">
+        {{ content }}
+      </section>
+    </div>
+  </article>
+  {% if page.permalink == '/' %}{% include climbing-game.html %}{% endif %}
+</main>
