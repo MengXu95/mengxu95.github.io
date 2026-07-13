@@ -1,5 +1,6 @@
 :root {
   --site-header-height: 70px;
+  --site-shell-width: 1280px;
 }
 
 * {
@@ -16,7 +17,7 @@ body {
   margin: 0;
   color: #334348;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.62;
 }
 
 a {
@@ -48,13 +49,15 @@ select {
 }
 
 .site-header {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 100;
   min-height: var(--site-header-height);
 }
 
 .site-header__inner {
   width: calc(100% - 2rem);
+  max-width: var(--site-shell-width);
   margin: 0 auto;
 }
 
@@ -134,7 +137,8 @@ select {
 
 #site-main {
   width: calc(100% - 2rem);
-  margin: 2rem auto 0;
+  max-width: var(--site-shell-width);
+  margin: 1.75rem auto 0;
 }
 
 #site-main::after {
@@ -152,18 +156,21 @@ select {
 }
 
 .content-page__header {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid rgba(17, 104, 95, 0.16);
 }
 
 .content-page__header--home {
-  margin-bottom: 1rem;
+  margin-bottom: 1.15rem;
 }
 
 .content-page__title {
   margin: 0;
   color: #172126;
-  font-size: 1.75rem;
-  line-height: 1.2;
+  font-size: clamp(1.55rem, 2.4vw, 2rem);
+  letter-spacing: -0.025em;
+  line-height: 1.16;
 }
 
 .content-page__body {
@@ -216,52 +223,53 @@ select {
 }
 
 .site-footer__copyright {
-  max-width: 1440px;
+  max-width: var(--site-shell-width);
   margin: 0 auto;
   color: #6c787c;
   font-size: 0.72rem;
   text-align: center;
 }
 
-@media (min-width: 57.8125em) {
+@media (min-width: 64em) {
   #site-main {
-    max-width: 1440px;
+    display: grid;
+    grid-template-columns: minmax(13rem, 16rem) minmax(0, 56rem);
+    gap: clamp(2rem, 4vw, 4rem);
+    justify-content: center;
+    align-items: start;
   }
 
   .profile-rail {
-    float: left;
-    width: 23%;
+    width: auto;
+    min-width: 0;
+    margin: 0;
   }
 
   .profile-rail.sticky {
     position: sticky;
-    top: 1rem;
+    top: calc(var(--site-header-height) + 1.25rem);
   }
 
   .content-page {
-    float: right;
-    width: 75%;
-    padding-left: 3.2%;
+    width: auto;
+    min-width: 0;
+    padding: 0;
   }
 }
 
 @media (min-width: 80em) {
   .profile-rail {
-    max-width: 320px;
-  }
-
-  .content-page {
-    padding-left: 2.6%;
+    max-width: 16rem;
   }
 }
 
-@media (max-width: 57.75em) {
+@media (max-width: 63.9375em) {
   html {
     font-size: 16px;
   }
 
   #site-main {
-    margin-top: 1rem;
+    margin-top: 1.15rem;
   }
 
   .site-nav__toggle,
@@ -290,7 +298,8 @@ select {
   }
 
   .profile-rail {
-    min-height: 7rem;
+    min-height: 6.5rem;
+    margin-bottom: 1.35rem;
   }
 
   .profile-card {

@@ -13,7 +13,10 @@
   --mx-bit-red: #9d1b1e;
   --mx-bit-red-dark: #6f1114;
   --mx-sky: #dbeaf2;
-  --mx-shadow: 0 12px 28px rgba(23, 33, 38, 0.08);
+  --mx-surface: #ffffff;
+  --mx-line-strong: #bfd0cc;
+  --mx-shadow: 0 14px 34px rgba(23, 33, 38, 0.09);
+  --mx-shadow-soft: 0 6px 18px rgba(23, 33, 38, 0.055);
 }
 
 body {
@@ -44,37 +47,29 @@ body {
 
 #site-main,
 .site-header__inner {
-  max-width: 1440px;
+  max-width: var(--site-shell-width);
 }
 
 #site-main {
   min-height: calc(100vh - 70px - 4.2rem);
 }
 
-@media (min-width: 57.8125em) {
-  .profile-rail {
-    width: 23%;
-  }
-
-  .content-page {
-    width: 75%;
-    padding-left: 3.2%;
-  }
-}
-
-@media (min-width: 80em) {
-  .profile-rail {
-    max-width: 320px;
-  }
-
-  .content-page {
-    padding-left: 2.6%;
-  }
-}
-
 .site-header {
   border-bottom: 1px solid rgba(17, 104, 95, 0.18);
-  background: rgba(255, 253, 248, 0.96);
+  background: rgba(255, 253, 248, 0.9);
+  box-shadow: 0 4px 18px rgba(23, 33, 38, 0.045);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+@media (min-width: 64em) {
+  .profile-card {
+    padding: 1rem;
+    border: 1px solid var(--mx-line);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.72);
+    box-shadow: var(--mx-shadow-soft);
+  }
 }
 
 .profile-card__avatar {
@@ -182,7 +177,7 @@ body {
   text-decoration: none;
 }
 
-@media (max-width: 57.75em) {
+@media (max-width: 63.9375em) {
   .profile-rail {
     position: relative;
     z-index: 20;
