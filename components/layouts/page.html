@@ -5,7 +5,7 @@ layout: default
   <aside class="profile-rail{% unless page.permalink == '/' %} sticky{% endunless %}" aria-label="Author profile">
     {% include profile.html %}
   </aside>
-  <article class="content-page" itemscope itemtype="https://schema.org/ProfilePage">
+  <article class="content-page" itemscope itemtype="https://schema.org/{{ page.schema_type | default: 'WebPage' }}">
     <div class="content-page__inner">
       <header class="content-page__header{% if page.permalink == '/' %} content-page__header--home{% endif %}">
         <h1 class="content-page__title" itemprop="headline">{{ page.title }}</h1>

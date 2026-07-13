@@ -32,9 +32,12 @@ function layoutBody(name) {
 }
 
 function processConditionals(text, page) {
-  var isHome = page.permalink === "/";
-  text = text.replace(/{% if page\.permalink == '\/' %}([\s\S]*?){% endif %}/g, isHome ? "$1" : "");
-  text = text.replace(/{% unless page\.permalink == '\/' %}([\s\S]*?){% endunless %}/g, isHome ? "" : "$1");
+  text = text.replace(/{% if page\.permalink == '([^']+)' %}([\s\S]*?){% endif %}/g, function (_, permalink, content) {
+    return page.permalink === permalink ? content : "";
+  });
+  text = text.replace(/{% unless page\.permalink == '([^']+)' %}([\s\S]*?){% endunless %}/g, function (_, permalink, content) {
+    return page.permalink === permalink ? "" : content;
+  });
   return text;
 }
 
@@ -60,6 +63,8 @@ function renderVariables(text, page, content) {
   text = text.replace(/<title>{% if page\.seo_title %}[\s\S]*?{% endif %}<\/title>/, "<title>" + escapeHtml(title) + "</title>");
   text = text.replace(/{{ content }}/g, content || "");
   text = text.replace(/{{ page\.title }}/g, escapeHtml(page.title));
+  text = text.replace(/{{ page\.schema_type \| default: 'WebPage' }}/g, escapeHtml(page.schema_type || "WebPage"));
+  text = text.replace(/{{ page\.robots \| default: 'index, follow' }}/g, escapeHtml(page.robots || "index, follow"));
   text = text.replace(/{{ page\.url \| absolute_url }}/g, canonical);
   text = text.replace(/{{ page\.excerpt \| default: site\.description \| strip_html \| escape }}/g, escapeHtml(description));
   text = text.replace(/{{ page\.seo_title \| default: page\.title \| default: site\.title \| escape }}/g, escapeHtml(page.seo_title || page.title || "Meng Xu"));

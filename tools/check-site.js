@@ -43,6 +43,12 @@ walk(root).forEach(function (file) {
   if (file === __filename) return;
   if (!/\.(html|md|yml|yaml|scss|css|js|json|rb)$/i.test(file)) return;
   var text = fs.readFileSync(file, "utf8");
+  var externalBlankLinks = text.match(/<a\b[^>]*target=["']_blank["'][^>]*>/gi) || [];
+  externalBlankLinks.forEach(function (link) {
+    if (!/\brel=["'][^"']*\bnoopener\b/i.test(link)) {
+      errors.push("External link opened in a new tab without rel=noopener: " + path.relative(root, file));
+    }
+  });
   forbiddenReferences.forEach(function (rule) {
     if (rule.pattern.test(text)) {
       errors.push(rule.message + ": " + path.relative(root, file));

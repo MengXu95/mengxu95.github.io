@@ -1,6 +1,8 @@
 (function () {
   "use strict";
 
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
   var SVG_NAMESPACE = "http://www.w3.org/2000/svg";
   var MOVE_SUCCESS_RATE = 0.9;
   var CLIMBER_OFFSET = 10;
@@ -250,7 +252,7 @@
         animation.cancel();
       });
 
-      if (animate && typeof climber.animate === "function") {
+      if (animate && !reduceMotion && typeof climber.animate === "function") {
         climber.animate([
           { transform: previousTransform },
           { transform: nextTransform, offset: 0.78 },
@@ -303,6 +305,7 @@
     }
 
     function celebrate() {
+      if (reduceMotion) return;
       var colors = ["#cf654c", "#27877e", "#4169a9", "#d2a536", "#875b91", "#c76078", "#66884e"];
       confetti.replaceChildren();
       for (var index = 0; index < 52; index += 1) {
@@ -328,7 +331,7 @@
 
       var currentHold = holdData.get(route[currentStep]);
       var currentTransform = climberTransform(currentHold);
-      if (typeof climber.animate === "function") {
+      if (!reduceMotion && typeof climber.animate === "function") {
         climber.animate([
           { transform: currentTransform },
           { transform: "translate(" + (currentHold.x + 12) + "px, " + (currentHold.y + 125) + "px) rotate(16deg)" }

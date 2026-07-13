@@ -20,6 +20,25 @@ body {
   line-height: 1.62;
 }
 
+.skip-link {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 1000;
+  padding: 0.55rem 0.8rem;
+  border: 2px solid #11685f;
+  border-radius: 4px;
+  background: #fffdf8;
+  color: #0c423e;
+  font-weight: 800;
+  text-decoration: none;
+  transform: translateY(calc(-100% - 1rem));
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 a {
   color: #11685f;
 }
@@ -62,6 +81,7 @@ select {
 }
 
 .site-nav {
+  position: relative;
   display: flex;
   min-height: var(--site-header-height);
   align-items: center;
@@ -77,11 +97,13 @@ select {
 }
 
 .site-nav__links {
+  position: absolute;
+  left: 50%;
   display: flex;
   min-width: 0;
-  margin-left: auto;
   align-items: center;
   gap: clamp(0.55rem, 1.5vw, 1.3rem);
+  transform: translateX(-50%);
 }
 
 .site-nav__links a {
@@ -114,6 +136,12 @@ select {
 
 .site-nav__links a[aria-current="page"] {
   color: #0c423e;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid rgba(17, 104, 95, 0.5);
+  outline-offset: 3px;
 }
 
 .site-nav__toggle,
@@ -201,7 +229,7 @@ select {
 
 .profile-card__pronouns {
   margin-bottom: 0.55rem;
-  color: #6c787c;
+  color: #657175;
   font-size: 0.76rem;
 }
 
@@ -230,7 +258,7 @@ select {
 .site-footer__copyright {
   max-width: var(--site-shell-width);
   margin: 0 auto;
-  color: #6c787c;
+  color: #657175;
   font-size: 0.72rem;
   text-align: center;
 }
@@ -286,6 +314,7 @@ select {
     position: absolute;
     top: var(--site-header-height);
     right: 1rem;
+    left: auto;
     display: none;
     width: min(20rem, calc(100vw - 2rem));
     gap: 0.2rem;
@@ -294,6 +323,7 @@ select {
     border-radius: 10px;
     background: #fffdf8;
     box-shadow: 0 12px 28px rgba(23, 33, 38, 0.12);
+    transform: none;
   }
 
   .site-nav__links.is-open {
@@ -356,6 +386,20 @@ select {
   .profile-card__links.is-open {
     display: block;
   }
+
+  .no-js .site-nav__toggle,
+  .no-js .profile-card__toggle {
+    display: none;
+  }
+
+  .no-js .site-nav__links,
+  .no-js .profile-card__links {
+    position: static;
+    display: grid;
+    width: 100%;
+    max-width: none;
+    box-shadow: none;
+  }
 }
 
 @media (max-width: 32em) {
@@ -380,6 +424,9 @@ select {
   *,
   *::before,
   *::after {
+    scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
   }
 }

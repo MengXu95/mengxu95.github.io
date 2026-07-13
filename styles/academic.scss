@@ -1,7 +1,7 @@
 :root {
   --mx-ink: #172126;
   --mx-text: #334348;
-  --mx-muted: #6c787c;
+  --mx-muted: #657175;
   --mx-paper: #fffdf8;
   --mx-mist: #f4f8f7;
   --mx-line: #d9e4e1;
@@ -9,7 +9,7 @@
   --mx-teal-dark: #0c423e;
   --mx-indigo: #39538c;
   --mx-amber: #c58a1f;
-  --mx-coral: #bb5f46;
+  --mx-coral: #a64f39;
   --mx-bit-red: #9d1b1e;
   --mx-bit-red-dark: #6f1114;
   --mx-sky: #dbeaf2;
@@ -116,9 +116,20 @@ body {
 .profile-card__links a,
 .profile-card__detail {
   display: grid;
-  grid-template-columns: 1.2rem minmax(0, 1fr);
-  column-gap: 0.25rem;
+  grid-template-columns: minmax(0, 1fr) 1.2rem;
+  column-gap: 0.4rem;
   align-items: start;
+}
+
+.profile-card__links .profile-icon {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.profile-card__detail-copy,
+.profile-card__links a > span:last-child {
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .profile-card__links > .profile-card__detail {
@@ -164,7 +175,7 @@ body {
 .profile-card__links a {
   min-height: 1.9rem;
   margin-bottom: 0.08rem;
-  padding: 0.26rem 0.36rem;
+  padding: 0.26rem 0.36rem 0.26rem 0;
   border-radius: 4px;
   align-items: center;
   transition: background-color 0.16s ease, color 0.16s ease;
