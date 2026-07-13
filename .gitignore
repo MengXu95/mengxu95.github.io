@@ -14,3 +14,6 @@ package-lock.json
 # Local Codex preview tooling
 .codex-tools/
 .bundle/
+
+# Local curriculum vitae source
+CV2026.tex
