@@ -107,7 +107,7 @@ body {
 
 .profile-card__bio {
   color: var(--mx-teal-dark);
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   line-height: 1.6;
 }
 
@@ -161,7 +161,7 @@ body {
 .profile-card__detail-label {
   margin-bottom: 0.14rem;
   color: var(--mx-muted);
-  font-size: 0.68rem;
+  font-size: 0.74rem;
   font-weight: 800;
   letter-spacing: 0;
   line-height: 1.25;
@@ -170,8 +170,8 @@ body {
 
 .profile-card__detail-value {
   color: var(--mx-text);
-  font-size: 0.79rem;
-  line-height: 1.55;
+  font-size: 0.84rem;
+  line-height: 1.58;
 }
 
 .profile-card__links-heading {
@@ -179,7 +179,7 @@ body {
   padding-top: 0.72rem;
   border-top: 1px solid rgba(17, 104, 95, 0.16);
   color: var(--mx-muted);
-  font-size: 0.64rem !important;
+  font-size: 0.75rem !important;
   font-weight: 800;
   letter-spacing: 0;
   line-height: 1.25 !important;
@@ -291,7 +291,7 @@ body {
 .section-heading p {
   margin-bottom: 0.48rem;
   color: var(--mx-coral);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -330,7 +330,7 @@ body {
   min-height: 2rem;
   padding: 0.28rem 0.72rem;
   border: 1px solid transparent;
-  font-size: 0.82rem;
+  font-size: 0.86rem;
   font-weight: 800;
   text-decoration: none;
 }
@@ -370,7 +370,7 @@ body {
 
 .summary-facts dt {
   color: var(--mx-indigo);
-  font-size: 0.71rem;
+  font-size: 0.75rem;
   font-weight: 800;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -379,8 +379,8 @@ body {
 .summary-facts dd {
   margin-top: 0.2rem;
   color: var(--mx-ink);
-  font-size: 0.86rem;
-  line-height: 1.5;
+  font-size: 0.9rem;
+  line-height: 1.58;
 }
 
 .recruiting-announcement {
@@ -441,8 +441,8 @@ body {
 .announcement-copy p:last-child {
   margin: 0;
   color: var(--mx-text);
-  font-size: 0.88rem;
-  line-height: 1.62;
+  font-size: 0.92rem;
+  line-height: 1.65;
 }
 
 .recruiting-announcement > a {
@@ -455,7 +455,7 @@ body {
   border-radius: 6px;
   background: var(--mx-bit-red);
   color: #ffffff;
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 800;
   text-decoration: none;
   white-space: nowrap;
@@ -528,8 +528,8 @@ body {
 .clean-list span,
 .resource-nav small {
   color: var(--mx-text);
-  font-size: 0.9rem;
-  line-height: 1.62;
+  font-size: 0.94rem;
+  line-height: 1.65;
 }
 
 .research-list p {
@@ -564,7 +564,7 @@ body {
 
 .clean-list time {
   color: var(--mx-indigo);
-  font-size: 0.79rem;
+  font-size: 0.82rem;
   font-weight: 800;
   line-height: 1.5;
 }
@@ -635,7 +635,7 @@ body {
   border: 1px solid rgba(17, 104, 95, 0.16);
   background: var(--mx-sky);
   color: var(--mx-teal-dark);
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   font-weight: 800;
 }
 
@@ -707,7 +707,7 @@ body {
   padding: 0.08rem 0.42rem;
   background: var(--mx-teal);
   color: #ffffff;
-  font-size: 0.71rem;
+  font-size: 0.75rem;
   font-weight: 800;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -722,8 +722,8 @@ body {
 .project-list-cards p {
   margin: 0;
   color: var(--mx-text);
-  font-size: 0.88rem;
-  line-height: 1.62;
+  font-size: 0.92rem;
+  line-height: 1.65;
 }
 
 .external-links {
@@ -834,8 +834,8 @@ strong.accolade,
 .cv-skill-grid p {
   margin: 0;
   color: var(--mx-text);
-  font-size: 0.89rem;
-  line-height: 1.62;
+  font-size: 0.93rem;
+  line-height: 1.65;
 }
 
 .grant-list {
@@ -872,7 +872,7 @@ strong.accolade,
   border: 1px solid rgba(194, 120, 43, 0.22);
   background: rgba(255, 239, 204, 0.78);
   color: #8a4f12;
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   font-weight: 820;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -890,7 +890,7 @@ strong.accolade,
   max-width: 48rem;
   margin: 0 0 0.82rem;
   color: var(--mx-text);
-  font-size: 0.93rem;
+  font-size: 0.95rem;
   line-height: 1.65;
 }
 
@@ -908,7 +908,7 @@ strong.accolade,
 
 .grant-body dt {
   color: var(--mx-teal-dark);
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   font-weight: 820;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -917,8 +917,8 @@ strong.accolade,
 .grant-body dd {
   margin-top: 0.1rem;
   color: var(--mx-text);
-  font-size: 0.89rem;
-  line-height: 1.62;
+  font-size: 0.93rem;
+  line-height: 1.65;
 }
 
 .project-list {
@@ -936,7 +936,15 @@ strong.accolade,
   border: 1px solid rgba(17, 104, 95, 0.18);
   background: var(--mx-sky);
   color: var(--mx-teal-dark);
-  font-size: 0.72em;
+  font-size: 0.78em;
+}
+
+@media (max-width: 63.9375em) {
+  .profile-card__pronouns,
+  .profile-card__links li,
+  .profile-card__links a {
+    font-size: 0.88rem;
+  }
 }
 
 @media (max-width: 64em) {
