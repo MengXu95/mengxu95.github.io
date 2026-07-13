@@ -107,8 +107,13 @@ select {
 }
 
 .site-nav__links a:hover::after,
-.site-nav__links a:focus-visible::after {
+.site-nav__links a:focus-visible::after,
+.site-nav__links a[aria-current="page"]::after {
   transform: scaleX(1);
+}
+
+.site-nav__links a[aria-current="page"] {
+  color: #0c423e;
 }
 
 .site-nav__toggle,
@@ -122,10 +127,10 @@ select {
 }
 
 .site-nav__toggle {
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 2.75rem;
+  height: 2.75rem;
   margin-left: auto;
-  padding: 0.45rem;
+  padding: 0.65rem;
 }
 
 .site-nav__toggle > span:not(.sr-only) {
@@ -283,8 +288,10 @@ select {
     right: 1rem;
     display: none;
     width: min(20rem, calc(100vw - 2rem));
-    padding: 0.75rem;
+    gap: 0.2rem;
+    padding: 0.65rem;
     border: 1px solid rgba(17, 104, 95, 0.18);
+    border-radius: 10px;
     background: #fffdf8;
     box-shadow: 0 12px 28px rgba(23, 33, 38, 0.12);
   }
@@ -294,7 +301,17 @@ select {
   }
 
   .site-nav__links a {
-    padding: 0.45rem;
+    display: flex;
+    min-height: 2.75rem;
+    padding: 0.55rem 0.65rem;
+    align-items: center;
+    border-radius: 6px;
+  }
+
+  .site-nav__links a:hover,
+  .site-nav__links a:focus-visible,
+  .site-nav__links a[aria-current="page"] {
+    background: rgba(17, 104, 95, 0.07);
   }
 
   .profile-rail {
@@ -308,6 +325,11 @@ select {
     grid-template-columns: 5.5rem minmax(0, 1fr) auto;
     gap: 0.75rem;
     align-items: start;
+    padding: 0.75rem;
+    border: 1px solid rgba(17, 104, 95, 0.16);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.76);
+    box-shadow: 0 6px 18px rgba(23, 33, 38, 0.055);
   }
 
   .profile-card__name {
@@ -315,7 +337,8 @@ select {
   }
 
   .profile-card__toggle {
-    padding: 0.4rem 0.65rem;
+    min-height: 2.75rem;
+    padding: 0.45rem 0.7rem;
   }
 
   .profile-card__links {
@@ -325,6 +348,7 @@ select {
     display: none;
     padding: 0.75rem;
     border: 1px solid rgba(17, 104, 95, 0.18);
+    border-radius: 10px;
     background: #fffdf8;
     box-shadow: 0 12px 28px rgba(23, 33, 38, 0.12);
   }
@@ -345,5 +369,17 @@ select {
 
   .content-page__title {
     font-size: 1.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
   }
 }

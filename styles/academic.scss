@@ -199,6 +199,7 @@ body {
   }
 
   .profile-card__links a {
+    min-height: 2.75rem;
     width: 100%;
   }
 }
@@ -970,6 +971,16 @@ strong.accolade,
 
   .grant-list article {
     grid-template-columns: 1fr;
+  }
+
+  .section-heading {
+    margin-bottom: 1rem;
+    padding-bottom: 0.65rem;
+  }
+
+  .publications-page ol {
+    padding-right: 0.85rem;
+    padding-left: 2.45rem;
   }
 }
 
