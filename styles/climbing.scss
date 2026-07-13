@@ -529,11 +529,10 @@
 @media (min-width: 64em) {
   #site-main.homepage-grid {
     display: grid;
-    grid-template-columns: minmax(13rem, 16rem) minmax(0, 56rem);
-    gap: clamp(2rem, 4vw, 4rem);
-    justify-content: center;
+    grid-template-columns: clamp(12rem, 21vw, 14rem) minmax(0, 1fr) clamp(11.5rem, 20vw, 13rem);
+    gap: clamp(0.75rem, 1.2vw, 1.25rem);
     align-items: start;
-    max-width: var(--site-shell-width);
+    max-width: calc(100vw - 2rem);
   }
 
   #site-main.homepage-grid::before,
@@ -555,7 +554,7 @@
     max-height: calc(100vh - var(--site-header-height) - 2rem);
     margin: 0;
     padding-top: 0;
-    padding-right: 0;
+    padding-right: 0.45rem;
     overflow-y: auto;
     scrollbar-color: rgba(17, 104, 95, 0.28) transparent;
     scrollbar-width: thin;
@@ -573,21 +572,24 @@
   }
 
   #site-main.homepage-grid > .climbing-rail {
-    position: static;
-    grid-column: 2;
-    grid-row: 2;
+    position: sticky;
+    top: calc(var(--site-header-height) + 1rem);
+    grid-column: 3;
+    grid-row: 1;
     align-self: start;
     width: 100%;
     min-width: 0;
-    max-height: none;
-    margin: 1.5rem 0 0;
-    overflow: visible;
+    max-height: calc(100vh - var(--site-header-height) - 2rem);
+    margin: 0;
+    overflow-y: auto;
+    scrollbar-color: rgba(17, 104, 95, 0.28) transparent;
+    scrollbar-width: thin;
   }
 
   .climb-game {
-    width: 100%;
+    width: min(100%, calc((100vh - 16rem) * 0.4545));
     min-width: 0;
-    max-width: 22rem;
+    max-width: none;
   }
 }
 
@@ -596,11 +598,10 @@
     grid-template-columns: minmax(15rem, 19rem) minmax(31rem, 1fr) minmax(14.25rem, 17.25rem);
     gap: clamp(1rem, 1.6vw, 1.75rem);
     width: calc(100% - 2rem);
-    max-width: 90rem;
+    max-width: 105rem;
   }
 
   #site-main.homepage-grid > .profile-rail {
-    padding-left: 1rem;
     grid-column: 1;
     grid-row: 1;
   }
@@ -611,20 +612,7 @@
   }
 
   #site-main.homepage-grid > .climbing-rail {
-    position: sticky;
-    top: calc(var(--site-header-height) + 1rem);
     grid-column: 3;
-    grid-row: 1;
-    max-height: calc(100vh - var(--site-header-height) - 2rem);
-    margin: 0;
-    overflow-y: auto;
-    scrollbar-color: rgba(17, 104, 95, 0.28) transparent;
-    scrollbar-width: thin;
-  }
-
-  .climb-game {
-    width: min(100%, calc((100vh - 16rem) * 0.4545));
-    max-width: none;
   }
 }
 
