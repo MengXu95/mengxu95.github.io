@@ -8,19 +8,15 @@
   margin-top: 1.25rem;
 }
 
-#main.home-shell > .sidebar .author__content {
-  display: none;
-}
-
 .climb-game {
   width: 100%;
   max-width: 22rem;
   margin: 0 auto;
   overflow: hidden;
-  border: 1px solid rgba(23, 33, 43, 0.16);
+  border: 1px solid rgba(23, 33, 38, 0.18);
   border-radius: 6px;
-  background: #ffffff;
-  box-shadow: 0 10px 28px rgba(23, 33, 43, 0.08);
+  background: #f7f2e8;
+  box-shadow: 0 12px 28px rgba(23, 33, 38, 0.1);
   color: var(--mx-text);
 }
 
@@ -30,8 +26,10 @@
   justify-content: space-between;
   gap: 0.75rem;
   padding: 0.8rem 0.85rem 0.7rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: #17212b;
+  border-bottom: 1px solid rgba(23, 33, 38, 0.12);
+  background:
+    linear-gradient(115deg, rgba(17, 104, 95, 0.08), transparent 48%),
+    #fffdf8;
 }
 
 .climb-game__header p,
@@ -44,7 +42,7 @@
 
 .climb-game__header p {
   margin-bottom: 0.16rem;
-  color: #d99aa5;
+  color: var(--mx-coral);
   font-size: 0.58rem;
   font-weight: 850;
   letter-spacing: 0;
@@ -53,8 +51,7 @@
 }
 
 .climb-game__header h2 {
-  color: #ffffff;
-  font-family: var(--mx-display);
+  color: var(--mx-ink);
   font-size: 1rem;
   font-weight: 820;
   letter-spacing: 0;
@@ -64,7 +61,7 @@
 .climb-game__grade {
   flex: 0 0 auto;
   padding: 0.32rem 0.44rem;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(157, 27, 30, 0.3);
   border-radius: 4px;
   background: var(--mx-bit-red);
   color: #fff;
@@ -80,8 +77,7 @@
   align-items: center;
   gap: 0.48rem;
   padding: 0.52rem 0.85rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.04);
-  background: #24313b;
+  background: #172126;
   color: #f8faf9;
   font-size: 0.62rem;
   font-weight: 750;
@@ -99,12 +95,12 @@
   display: block;
   width: 0;
   height: 100%;
-  background: #d99aa5;
+  background: #e0ad2f;
   transition: width 0.38s ease;
 }
 
 .climb-game__chance {
-  color: #d6e3e7;
+  color: #f5cf6e;
   font-size: 0.58rem;
   white-space: nowrap;
 }
@@ -114,7 +110,7 @@
   width: 100%;
   aspect-ratio: 300 / 660;
   overflow: hidden;
-  background: #d8dcdb;
+  background: #cfc9bc;
   isolation: isolate;
 }
 
@@ -125,19 +121,19 @@
 }
 
 .climb-wall__surface {
-  fill: #dfe2e1;
-  stroke: #b8bfbe;
+  fill: #d9d3c5;
+  stroke: #afa897;
   stroke-width: 2;
 }
 
 .climb-wall__texture {
-  color: #74808a;
+  color: #6b756f;
   fill: url("#climb-wall-texture");
 }
 
 .climb-wall__cracks {
   fill: none;
-  stroke: #929b9b;
+  stroke: #8f8a7f;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 1.2;
@@ -145,7 +141,7 @@
 }
 
 .climb-wall__top path {
-  fill: #17212b;
+  fill: #172126;
 }
 
 .climb-wall__top text {
@@ -157,7 +153,7 @@
 
 .climb-rope {
   fill: none;
-  stroke: #9b1c31;
+  stroke: #e36d48;
   stroke-linecap: round;
   stroke-width: 2.2;
   opacity: 0.78;
@@ -183,32 +179,6 @@
   stroke: rgba(23, 33, 38, 0.34);
   stroke-width: 1;
   transition: filter 0.18s ease, opacity 0.18s ease, stroke 0.18s ease;
-}
-
-.climb-hold__grip {
-  fill: none;
-  pointer-events: none;
-  stroke: rgba(38, 54, 62, 0.42);
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.45;
-}
-
-.climb-hold--jug .climb-hold__grip {
-  stroke-width: 2.2;
-}
-
-.climb-hold--crimp .climb-hold__grip {
-  stroke-width: 1.75;
-}
-
-.climb-hold--sloper .climb-hold__grip {
-  stroke: rgba(255, 255, 255, 0.58);
-  stroke-width: 1.3;
-}
-
-.climb-hold--pinch .climb-hold__grip {
-  stroke-width: 1.1;
 }
 
 .climb-hold__shine {
@@ -281,7 +251,7 @@
 }
 
 .climb-girl__leg {
-  stroke: #c78c70;
+  stroke: #27394a;
   stroke-width: 7;
 }
 
@@ -293,78 +263,26 @@
 }
 
 .climb-girl__arm {
-  stroke: #c78c70;
-  stroke-width: 5.8;
+  stroke: #b9785b;
+  stroke-width: 5;
 }
 
-.climb-girl__shoulder {
-  fill: #c78c70;
-  stroke: #9a624f;
-  stroke-width: 0.7;
-}
-
-.climb-girl__tank {
-  fill: #a63f58;
-  stroke: #6f2639;
+.climb-girl__top {
+  fill: #bb5f46;
+  stroke: #773f35;
   stroke-width: 1;
-}
-
-.climb-girl__racerback {
-  fill: #d7a087;
-  stroke: #8e5948;
-  stroke-width: 0.65;
-}
-
-.climb-girl__muscle {
-  fill: none;
-  stroke: rgba(105, 54, 46, 0.72);
-  stroke-linecap: round;
-  stroke-width: 0.9;
-}
-
-.climb-girl__shorts {
-  fill: #526b83;
-  stroke: #304354;
-  stroke-linejoin: round;
-  stroke-width: 1;
-}
-
-.climb-girl__chalk-strap,
-.climb-girl__chalk-rim {
-  fill: none;
-  stroke-linecap: round;
-}
-
-.climb-girl__chalk-strap {
-  stroke: #303b43;
-  stroke-width: 1.5;
-}
-
-.climb-girl__chalk-bag {
-  fill: #9bcfc2;
-  stroke: #477c72;
-  stroke-width: 0.9;
-}
-
-.climb-girl__chalk-rim {
-  stroke: #f7fbfa;
-  stroke-width: 1.1;
-}
-
-.climb-girl__chalk {
-  fill: rgba(255, 255, 255, 0.9);
 }
 
 .climb-girl__harness {
   fill: none;
-  stroke: #e2bd65;
+  stroke: #e0ad2f;
   stroke-linecap: round;
   stroke-width: 2.5;
 }
 
 .climb-girl__head {
-  fill: #c78c70;
-  stroke: #8e5948;
+  fill: #bd8062;
+  stroke: #7f4d3b;
   stroke-width: 0.8;
 }
 
@@ -384,8 +302,8 @@
   padding: 1rem 0.9rem;
   border: 1px solid rgba(23, 33, 38, 0.2);
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.97);
-  box-shadow: 0 14px 32px rgba(23, 33, 43, 0.18);
+  background: rgba(255, 253, 248, 0.97);
+  box-shadow: 0 14px 32px rgba(23, 33, 38, 0.2);
   text-align: center;
   animation: climb-result-in 0.28s ease-out both;
 }
@@ -427,7 +345,7 @@
   padding: 0.38rem 0.66rem;
   border: 0;
   border-radius: 4px;
-  background: var(--mx-bit-red);
+  background: var(--mx-teal-dark);
   color: #fff;
   font-size: 0.68rem;
   font-weight: 800;
@@ -472,13 +390,13 @@
   gap: 0.75rem;
   min-height: 2.6rem;
   padding: 0.48rem 0.62rem 0.48rem 0.85rem;
-  border-top: 1px solid var(--mx-line);
-  background: #ffffff;
+  border-top: 1px solid rgba(23, 33, 38, 0.12);
+  background: #fffdf8;
 }
 
 .climb-game__footer p {
   overflow: hidden;
-  color: var(--mx-text);
+  color: var(--mx-teal-dark);
   font-size: 0.66rem;
   font-weight: 800;
   line-height: 1.25;
@@ -492,10 +410,10 @@
   width: 1.85rem;
   height: 1.85rem;
   padding: 0;
-  border: 1px solid var(--mx-line);
+  border: 1px solid rgba(17, 104, 95, 0.2);
   border-radius: 4px;
-  background: #f3f6f7;
-  color: var(--mx-bit-red-dark);
+  background: rgba(17, 104, 95, 0.06);
+  color: var(--mx-teal-dark);
   cursor: pointer;
   place-items: center;
 }
@@ -504,7 +422,7 @@
 .climb-game__reset:focus-visible,
 .climb-result button:hover,
 .climb-result button:focus-visible {
-  outline: 2px solid rgba(155, 28, 49, 0.28);
+  outline: 2px solid rgba(17, 104, 95, 0.34);
   outline-offset: 2px;
 }
 
@@ -537,8 +455,8 @@
 @media (min-width: 64em) {
   #main.home-shell {
     display: grid;
-    grid-template-columns: clamp(10.5rem, 18vw, 12.5rem) minmax(0, 1fr) clamp(10.75rem, 18vw, 12.25rem);
-    gap: clamp(1rem, 1.55vw, 1.5rem);
+    grid-template-columns: clamp(12rem, 21vw, 14rem) minmax(0, 1fr) clamp(11.5rem, 20vw, 13rem);
+    gap: clamp(0.75rem, 1.2vw, 1.25rem);
     align-items: start;
     max-width: calc(100vw - 2rem);
   }
@@ -562,7 +480,7 @@
     max-height: calc(100vh - #{$masthead-height} - 2rem);
     margin: 0;
     padding-top: 0;
-    padding-right: 0.8rem;
+    padding-right: 0.45rem;
     overflow-y: auto;
     scrollbar-color: rgba(17, 104, 95, 0.28) transparent;
     scrollbar-width: thin;
@@ -577,20 +495,6 @@
     margin: 0;
     padding-right: 0;
     padding-left: 0;
-  }
-
-  #main.home-shell > .sidebar [data-author-detail="institution"],
-  #main.home-shell > .sidebar [data-author-detail="disciplines"],
-  #main.home-shell > .sidebar [data-author-detail="laboratory"] {
-    display: none;
-  }
-
-  #main.home-shell > .sidebar .author__bio {
-    margin-bottom: 0.85rem;
-  }
-
-  #main.home-shell > .sidebar .author__links-heading {
-    margin-top: 0.7rem;
   }
 
   #main.home-shell > .climbing-rail {
@@ -617,10 +521,10 @@
 
 @media (min-width: 80em) {
   #main.home-shell {
-    grid-template-columns: minmax(11.5rem, 12.5rem) minmax(38rem, 1fr) minmax(12.5rem, 13.5rem);
-    gap: clamp(1.3rem, 2vw, 2.2rem);
+    grid-template-columns: minmax(15rem, 19rem) minmax(31rem, 1fr) minmax(14.25rem, 17.25rem);
+    gap: clamp(1rem, 1.6vw, 1.75rem);
     width: calc(100% - 2rem);
-    max-width: 100rem;
+    max-width: 105rem;
   }
 
   #main.home-shell > .sidebar {
@@ -636,25 +540,9 @@
   #main.home-shell > .climbing-rail {
     grid-column: 3;
   }
-
-  .profile-summary {
-    grid-template-columns: minmax(0, 1.55fr) minmax(14rem, 0.85fr);
-    gap: clamp(1.5rem, 2.5vw, 2.5rem);
-  }
-
-  .summary-facts {
-    padding-top: 0;
-    padding-left: 1.25rem;
-    border-top: 0;
-    border-left: 1px solid var(--mx-line);
-  }
 }
 
 @media (max-width: 47.9375em) {
-  #main.home-shell > .sidebar .author__urls-wrapper {
-    float: right;
-  }
-
   .climbing-rail {
     margin-top: 1rem;
   }
