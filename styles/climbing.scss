@@ -186,6 +186,16 @@
   stroke: rgba(255, 255, 255, 0.55);
   stroke-linecap: round;
   stroke-width: 2;
+  pointer-events: none;
+}
+
+.climb-hold__detail {
+  fill: none;
+  stroke: rgba(23, 33, 38, 0.28);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.4;
+  pointer-events: none;
 }
 
 .climb-hold__bolt {
@@ -251,8 +261,8 @@
 }
 
 .climb-girl__leg {
-  stroke: #27394a;
-  stroke-width: 7;
+  stroke: #b9785b;
+  stroke-width: 6.5;
 }
 
 .climb-girl__shoe {
@@ -267,10 +277,53 @@
   stroke-width: 5;
 }
 
-.climb-girl__top {
-  fill: #bb5f46;
-  stroke: #773f35;
-  stroke-width: 1;
+.climb-girl__back {
+  fill: #b9785b;
+  stroke: #7f4d3b;
+  stroke-width: 0.8;
+}
+
+.climb-girl__bra-band {
+  fill: #176f68;
+  stroke: #0d4d49;
+  stroke-width: 0.8;
+}
+
+.climb-girl__bra-strap {
+  fill: none;
+  stroke: #49a69c;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.2;
+}
+
+.climb-girl__back-definition path {
+  fill: none;
+  stroke: #704536;
+  stroke-linecap: round;
+  stroke-width: 0.9;
+  opacity: 0.5;
+}
+
+.climb-girl__shorts {
+  fill: #27394a;
+  stroke: #172126;
+  stroke-linejoin: round;
+  stroke-width: 0.9;
+}
+
+.climb-girl__shorts-waist {
+  fill: none;
+  stroke: #6f8aa0;
+  stroke-linecap: round;
+  stroke-width: 1.2;
+}
+
+.climb-girl__chalk-strap {
+  fill: none;
+  stroke: #293b3c;
+  stroke-linecap: round;
+  stroke-width: 1.6;
 }
 
 .climb-girl__harness {
@@ -278,6 +331,27 @@
   stroke: #e0ad2f;
   stroke-linecap: round;
   stroke-width: 2.5;
+}
+
+.climb-girl__chalk-bag-body {
+  fill: #d2a536;
+  stroke: #765d1c;
+  stroke-linejoin: round;
+  stroke-width: 0.9;
+}
+
+.climb-girl__chalk-bag-rim {
+  fill: none;
+  stroke: #293b3c;
+  stroke-linecap: round;
+  stroke-width: 2.2;
+}
+
+.climb-girl__chalk-mark {
+  fill: none;
+  stroke: rgba(255, 253, 248, 0.85);
+  stroke-linecap: round;
+  stroke-width: 1.1;
 }
 
 .climb-girl__head {

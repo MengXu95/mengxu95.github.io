@@ -21,40 +21,63 @@
   ];
 
   var holds = [
-    { id: "r0", x: 146, y: 602, color: "#15877a", shape: "jug", rotation: -6, route: true, label: "teal starting" },
-    { id: "r1", x: 202, y: 548, color: "#e87a3d", shape: "pinch", rotation: 18, route: true, label: "orange" },
-    { id: "r2", x: 116, y: 482, color: "#3975c6", shape: "crimp", rotation: -12, route: true, label: "blue" },
-    { id: "r3", x: 188, y: 414, color: "#a4c63d", shape: "sloper", rotation: 9, route: true, label: "lime" },
-    { id: "r4", x: 92, y: 345, color: "#e05f67", shape: "pinch", rotation: -20, route: true, label: "coral" },
-    { id: "r5", x: 160, y: 279, color: "#e0ad2f", shape: "crimp", rotation: 7, route: true, label: "yellow" },
-    { id: "r6", x: 224, y: 211, color: "#bb58a6", shape: "jug", rotation: 14, route: true, label: "magenta" },
-    { id: "r7", x: 143, y: 142, color: "#20a9bd", shape: "sloper", rotation: -9, route: true, label: "cyan" },
-    { id: "r8", x: 162, y: 67, color: "#5ba95b", shape: "jug", rotation: 3, route: true, label: "green finishing" },
-    { id: "d1", x: 73, y: 548, color: "#8464c6", shape: "sloper", rotation: -18, label: "purple" },
-    { id: "d2", x: 244, y: 481, color: "#d64a43", shape: "jug", rotation: 10, label: "red" },
-    { id: "d3", x: 54, y: 414, color: "#24a6a1", shape: "crimp", rotation: 15, label: "turquoise" },
-    { id: "d4", x: 238, y: 345, color: "#d69e2e", shape: "pinch", rotation: -8, label: "gold" },
-    { id: "d5", x: 77, y: 275, color: "#486dc5", shape: "jug", rotation: 12, label: "indigo" },
-    { id: "d6", x: 247, y: 263, color: "#e68138", shape: "crimp", rotation: -15, label: "orange" },
-    { id: "d7", x: 61, y: 183, color: "#de648d", shape: "pinch", rotation: 22, label: "pink" },
-    { id: "d8", x: 235, y: 125, color: "#7659bd", shape: "sloper", rotation: -12, label: "violet" },
-    { id: "x1", x: 35, y: 623, color: "#e9b82e", shape: "crimp", rotation: 7, label: "yellow" },
-    { id: "x2", x: 264, y: 586, color: "#3b9c70", shape: "pinch", rotation: -20, label: "green" },
-    { id: "x3", x: 44, y: 500, color: "#cc5b9a", shape: "jug", rotation: 16, label: "pink" },
-    { id: "x4", x: 274, y: 428, color: "#3b84bd", shape: "sloper", rotation: -10, label: "blue" },
-    { id: "x5", x: 39, y: 329, color: "#df7b35", shape: "crimp", rotation: 8, label: "orange" },
-    { id: "x6", x: 269, y: 315, color: "#54a44f", shape: "jug", rotation: -16, label: "green" },
-    { id: "x7", x: 34, y: 235, color: "#d65656", shape: "sloper", rotation: 11, label: "red" },
-    { id: "x8", x: 275, y: 174, color: "#d8ae2e", shape: "pinch", rotation: -13, label: "yellow" },
-    { id: "x9", x: 42, y: 104, color: "#4a76c3", shape: "crimp", rotation: 18, label: "blue" },
-    { id: "x10", x: 267, y: 74, color: "#d75c83", shape: "jug", rotation: -4, label: "pink" }
+    { id: "r0", x: 146, y: 602, color: "#27877e", shape: "jug", rotation: -6, route: true, label: "deep teal starting" },
+    { id: "r1", x: 202, y: 548, color: "#cf654c", shape: "horn", rotation: 18, route: true, label: "terracotta" },
+    { id: "r2", x: 116, y: 482, color: "#4169a9", shape: "edge", rotation: -12, route: true, label: "cobalt" },
+    { id: "r3", x: 188, y: 414, color: "#66884e", shape: "sloper", rotation: 9, route: true, label: "moss green" },
+    { id: "r4", x: 92, y: 345, color: "#c76078", shape: "pinch", rotation: -20, route: true, label: "dusty rose" },
+    { id: "r5", x: 160, y: 279, color: "#d2a536", shape: "pocket", rotation: 7, route: true, label: "mustard" },
+    { id: "r6", x: 224, y: 211, color: "#875b91", shape: "blob", rotation: 14, route: true, label: "plum" },
+    { id: "r7", x: 143, y: 142, color: "#27877e", shape: "volume", rotation: -9, route: true, label: "deep teal" },
+    { id: "r8", x: 162, y: 67, color: "#66884e", shape: "jug", rotation: 3, route: true, label: "moss green finishing" },
+    { id: "d1", x: 73, y: 548, color: "#875b91", shape: "pocket", rotation: -18, label: "plum" },
+    { id: "d2", x: 244, y: 481, color: "#cf654c", shape: "blob", rotation: 10, label: "terracotta" },
+    { id: "d3", x: 54, y: 414, color: "#27877e", shape: "edge", rotation: 15, label: "deep teal" },
+    { id: "d4", x: 238, y: 345, color: "#d2a536", shape: "volume", rotation: -8, label: "mustard" },
+    { id: "d5", x: 77, y: 275, color: "#4169a9", shape: "horn", rotation: 12, label: "cobalt" },
+    { id: "d6", x: 247, y: 263, color: "#cf654c", shape: "crimp", rotation: -15, label: "terracotta" },
+    { id: "d7", x: 61, y: 183, color: "#c76078", shape: "pinch", rotation: 22, label: "dusty rose" },
+    { id: "d8", x: 235, y: 125, color: "#875b91", shape: "sloper", rotation: -12, label: "plum" },
+    { id: "x1", x: 35, y: 623, color: "#d2a536", shape: "edge", rotation: 7, label: "mustard" },
+    { id: "x2", x: 264, y: 586, color: "#66884e", shape: "horn", rotation: -20, label: "moss green" },
+    { id: "x3", x: 44, y: 500, color: "#c76078", shape: "pocket", rotation: 16, label: "dusty rose" },
+    { id: "x4", x: 274, y: 428, color: "#4169a9", shape: "volume", rotation: -10, label: "cobalt" },
+    { id: "x5", x: 39, y: 329, color: "#cf654c", shape: "crimp", rotation: 8, label: "terracotta" },
+    { id: "x6", x: 269, y: 315, color: "#66884e", shape: "blob", rotation: -16, label: "moss green" },
+    { id: "x7", x: 34, y: 235, color: "#c76078", shape: "sloper", rotation: 11, label: "dusty rose" },
+    { id: "x8", x: 275, y: 174, color: "#d2a536", shape: "pinch", rotation: -13, label: "mustard" },
+    { id: "x9", x: 42, y: 104, color: "#4169a9", shape: "edge", rotation: 18, label: "cobalt" },
+    { id: "x10", x: 267, y: 74, color: "#875b91", shape: "jug", rotation: -4, label: "plum" }
   ];
 
   var holdPaths = {
     jug: "M-14 2C-14-7-7-12 2-11C11-10 15-5 14 3C13 10 7 13-2 12C-10 12-14 9-14 2Z",
     crimp: "M-15-5Q-13-10-7-10H10Q15-9 15-4L12 7Q10 11 4 10L-9 9Q-14 8-15 3Z",
     sloper: "M-16 4Q-13-9 0-12Q13-10 16 2Q15 11 2 13Q-12 13-16 4Z",
-    pinch: "M-9-14Q-2-17 6-12L12 6Q13 13 5 15L-7 12Q-13 10-12 3Z"
+    pinch: "M-9-14Q-2-17 6-12L12 6Q13 13 5 15L-7 12Q-13 10-12 3Z",
+    pocket: "M-15 2Q-13-11-2-13Q11-14 15-4Q18 7 8 13Q-2 17-12 11Q-17 8-15 2Z",
+    edge: "M-17-7L13-10L17-3L12 8L-12 10L-17 4Z",
+    blob: "M-15-3Q-11-13-2-11Q5-16 11-8Q18-3 13 5Q11 14 2 12Q-7 17-10 9Q-18 6-15-3Z",
+    volume: "M-18 11L-7-15L18 5L7 14Z",
+    horn: "M-13 11Q-17 2-10-5Q-4-12 9-14Q4-8 12-2Q16 5 8 11Q-1 16-13 11Z"
+  };
+
+  var holdShinePaths = {
+    jug: "M-7-4Q0-9 7-5",
+    crimp: "M-9-5L8-7",
+    sloper: "M-9-3Q0-9 9-3",
+    pinch: "M-5-9Q0-12 5-8",
+    pocket: "M-9-3Q-4-9 3-9",
+    edge: "M-10-4L9-6",
+    blob: "M-8-4Q-2-10 5-7",
+    volume: "M-10 8L-6-10L10 3",
+    horn: "M-8 5Q-8-5 3-9"
+  };
+
+  var holdDetailPaths = {
+    pocket: "M-6 1Q-4-5 2-6Q8-5 8 1Q6 6 1 6Q-5 6-6 1Z",
+    volume: "M-7-15L7 14M-18 11L18 5",
+    horn: "M-3 8Q3 3 9-2"
   };
 
   function createSvgElement(name, attributes) {
@@ -192,9 +215,15 @@
         "d": holdPaths[hold.shape],
         "filter": "url(#climb-hold-shadow)"
       }));
+      if (holdDetailPaths[hold.shape]) {
+        group.appendChild(createSvgElement("path", {
+          "class": "climb-hold__detail",
+          "d": holdDetailPaths[hold.shape]
+        }));
+      }
       group.appendChild(createSvgElement("path", {
         "class": "climb-hold__shine",
-        "d": "M-7-4Q0-9 7-5",
+        "d": holdShinePaths[hold.shape],
         "pathLength": "1"
       }));
       group.appendChild(createSvgElement("circle", { "class": "climb-hold__bolt", "r": "1.8" }));
@@ -274,7 +303,7 @@
     }
 
     function celebrate() {
-      var colors = ["#e05f67", "#e0ad2f", "#20a9bd", "#5ba95b", "#7659bd", "#e87a3d"];
+      var colors = ["#cf654c", "#27877e", "#4169a9", "#d2a536", "#875b91", "#c76078", "#66884e"];
       confetti.replaceChildren();
       for (var index = 0; index < 52; index += 1) {
         var piece = document.createElement("span");
