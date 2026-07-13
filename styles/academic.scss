@@ -470,10 +470,6 @@ body {
   padding-left: 1.9rem;
 }
 
-.compact-section {
-  margin-top: 0;
-}
-
 .section-heading {
   max-width: 42rem;
   margin-bottom: 1.2rem;
@@ -534,13 +530,6 @@ body {
 
 .research-list p {
   margin: 0;
-}
-
-.content-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.4rem;
-  margin-top: 1.4rem;
 }
 
 .clean-list {
@@ -987,13 +976,6 @@ strong.accolade,
 
   .project-list-cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 80em) {
-  .content-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: stretch;
   }
 }
 
