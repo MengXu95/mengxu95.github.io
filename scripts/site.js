@@ -71,7 +71,7 @@
   });
 
   window.addEventListener("resize", function () {
-    if (window.matchMedia("(min-width: 57.8125em)").matches) {
+    if (window.matchMedia("(min-width: 64em)").matches) {
       toggles.forEach(function (toggle) { closeToggle(toggle, false); });
     }
   });
