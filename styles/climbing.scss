@@ -58,6 +58,16 @@
   line-height: 1.2;
 }
 
+.climb-game__intro {
+  margin: 0;
+  padding: 0.58rem 0.85rem 0.62rem;
+  border-bottom: 1px solid rgba(23, 33, 38, 0.12);
+  background: #fffdf8;
+  color: var(--mx-muted);
+  font-size: 0.76rem;
+  line-height: 1.45;
+}
+
 .climb-game__grade {
   flex: 0 0 auto;
   padding: 0.32rem 0.44rem;
@@ -247,124 +257,7 @@
   transform-box: view-box;
   transform-origin: 0 0;
   will-change: transform;
-}
-
-.climb-girl__shadow {
-  fill: rgba(23, 33, 38, 0.15);
-}
-
-.climb-girl__leg,
-.climb-girl__arm {
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.climb-girl__leg {
-  stroke: #b9785b;
-  stroke-width: 6.5;
-}
-
-.climb-girl__shoe {
-  fill: none;
-  stroke: #172126;
-  stroke-linecap: round;
-  stroke-width: 4.5;
-}
-
-.climb-girl__arm {
-  stroke: #b9785b;
-  stroke-width: 5;
-}
-
-.climb-girl__back {
-  fill: #b9785b;
-  stroke: #7f4d3b;
-  stroke-width: 0.8;
-}
-
-.climb-girl__bra-band {
-  fill: #176f68;
-  stroke: #0d4d49;
-  stroke-width: 0.8;
-}
-
-.climb-girl__bra-strap {
-  fill: none;
-  stroke: #49a69c;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 2.2;
-}
-
-.climb-girl__back-definition path {
-  fill: none;
-  stroke: #704536;
-  stroke-linecap: round;
-  stroke-width: 0.9;
-  opacity: 0.5;
-}
-
-.climb-girl__shorts {
-  fill: #27394a;
-  stroke: #172126;
-  stroke-linejoin: round;
-  stroke-width: 0.9;
-}
-
-.climb-girl__shorts-waist {
-  fill: none;
-  stroke: #6f8aa0;
-  stroke-linecap: round;
-  stroke-width: 1.2;
-}
-
-.climb-girl__chalk-strap {
-  fill: none;
-  stroke: #293b3c;
-  stroke-linecap: round;
-  stroke-width: 1.6;
-}
-
-.climb-girl__harness {
-  fill: none;
-  stroke: #e0ad2f;
-  stroke-linecap: round;
-  stroke-width: 2.5;
-}
-
-.climb-girl__chalk-bag-body {
-  fill: #d2a536;
-  stroke: #765d1c;
-  stroke-linejoin: round;
-  stroke-width: 0.9;
-}
-
-.climb-girl__chalk-bag-rim {
-  fill: none;
-  stroke: #293b3c;
-  stroke-linecap: round;
-  stroke-width: 2.2;
-}
-
-.climb-girl__chalk-mark {
-  fill: none;
-  stroke: rgba(255, 253, 248, 0.85);
-  stroke-linecap: round;
-  stroke-width: 1.1;
-}
-
-.climb-girl__head {
-  fill: #bd8062;
-  stroke: #7f4d3b;
-  stroke-width: 0.8;
-}
-
-.climb-girl__hair,
-.climb-girl__ponytail {
-  fill: #2d2524;
-  stroke: #171313;
-  stroke-width: 0.8;
+  filter: drop-shadow(0 2px 1px rgba(23, 33, 38, 0.2));
 }
 
 .climb-result {

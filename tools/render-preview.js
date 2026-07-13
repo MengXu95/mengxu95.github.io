@@ -113,6 +113,10 @@ fs.mkdirSync(path.join(output, "assets"), { recursive: true });
 fs.mkdirSync(path.join(output, "scripts"), { recursive: true });
 fs.copyFileSync(path.join(root, "assets", "profile.jpg"), path.join(output, "assets", "profile.jpg"));
 fs.copyFileSync(path.join(root, "assets", "favicon.svg"), path.join(output, "assets", "favicon.svg"));
+fs.copyFileSync(
+  path.join(root, "assets", "climbing-character.png"),
+  path.join(output, "assets", "climbing-character.png")
+);
 fs.copyFileSync(path.join(root, "scripts", "site.js"), path.join(output, "scripts", "site.js"));
 fs.copyFileSync(path.join(root, "scripts", "climbing-game.js"), path.join(output, "scripts", "climbing-game.js"));
 fs.writeFileSync(
