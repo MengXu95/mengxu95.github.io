@@ -488,8 +488,12 @@
 
 @media (min-width: 80em) {
   #site-main.homepage-grid {
-    grid-template-columns: minmax(15rem, 19rem) minmax(31rem, 1fr) minmax(14.25rem, 17.25rem);
+    grid-template-columns:
+      clamp(15rem, 25.14vw, 19rem)
+      clamp(31rem, calc(96.8vw - 39.1rem), 50rem)
+      minmax(14.25rem, 1fr);
     gap: clamp(1rem, 1.6vw, 1.75rem);
+    justify-content: start;
     width: calc(100% - 2rem);
     max-width: 105rem;
   }
