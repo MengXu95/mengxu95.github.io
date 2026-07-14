@@ -1020,11 +1020,12 @@ strong.accolade,
   #site-main:not(.homepage-grid) {
     grid-template-columns:
       clamp(15rem, 25.14vw, 19rem)
-      clamp(31rem, calc(96.8vw - 39.1rem), 50rem)
-      minmax(14.25rem, 1fr);
+      minmax(31rem, 52rem)
+      clamp(14.25rem, 16vw, 15rem);
     gap: clamp(1rem, 1.6vw, 1.75rem);
-    justify-content: start;
-    max-width: 105rem;
+    justify-content: center;
+    width: calc(100% - 4rem);
+    max-width: 89.5rem;
   }
 }
 
