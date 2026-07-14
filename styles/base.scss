@@ -269,9 +269,9 @@ button:focus-visible {
 @media (min-width: 64em) {
   #site-main {
     display: grid;
-    grid-template-columns: 16rem minmax(0, 56rem);
+    grid-template-columns: minmax(13rem, 16rem) minmax(0, 56rem);
     gap: clamp(2rem, 4vw, 4rem);
-    justify-content: start;
+    justify-content: center;
     align-items: start;
   }
 
@@ -283,11 +283,7 @@ button:focus-visible {
 
   .profile-rail.sticky {
     position: sticky;
-    top: calc(var(--site-header-height) + 1rem);
-    max-height: calc(100vh - var(--site-header-height) - 2rem);
-    overflow-y: auto;
-    scrollbar-color: rgba(17, 104, 95, 0.28) transparent;
-    scrollbar-width: thin;
+    top: calc(var(--site-header-height) + 1.25rem);
   }
 
   .content-page {
