@@ -100,9 +100,35 @@ body {
 }
 
 .profile-card__name {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem 0.5rem;
+  align-items: center;
   color: var(--mx-ink);
   font-size: 1.24rem;
   letter-spacing: -0.015em;
+}
+
+.profile-card__talent-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.5rem;
+  padding: 0.16rem 0.52rem;
+  border: 1px solid rgba(157, 27, 30, 0.24);
+  border-radius: 999px;
+  color: var(--mx-bit-red-dark);
+  background: rgba(157, 27, 30, 0.07);
+  font-size: 0.68rem;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+@media (min-width: 64em) {
+  .profile-card__name {
+    justify-content: center;
+  }
 }
 
 .profile-card__bio {
@@ -965,6 +991,42 @@ strong.accolade,
 }
 
 @media (min-width: 64em) {
+  #site-main:not(.homepage-grid) {
+    display: grid;
+    grid-template-columns: clamp(12rem, 21vw, 14rem) minmax(0, 1fr) clamp(11.5rem, 20vw, 13rem);
+    gap: clamp(0.75rem, 1.2vw, 1.25rem);
+    align-items: start;
+    width: calc(100% - 2rem);
+    max-width: calc(100vw - 2rem);
+  }
+
+  #site-main:not(.homepage-grid) > .profile-rail {
+    position: sticky;
+    top: calc(var(--site-header-height) + 1rem);
+    grid-column: 1;
+    grid-row: 1;
+    width: auto;
+    min-width: 0;
+    max-width: none;
+    max-height: calc(100vh - var(--site-header-height) - 2rem);
+    margin: 0;
+    padding-top: 0;
+    padding-right: 0.45rem;
+    overflow-y: auto;
+    scrollbar-color: rgba(17, 104, 95, 0.28) transparent;
+    scrollbar-width: thin;
+  }
+
+  #site-main:not(.homepage-grid) > .content-page {
+    grid-column: 2;
+    grid-row: 1;
+    width: auto;
+    min-width: 0;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .timeline-list li {
     grid-template-columns: 9rem minmax(0, 1fr);
     gap: 1.2rem;
@@ -976,6 +1038,15 @@ strong.accolade,
 
   .project-list-cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 80em) {
+  #site-main:not(.homepage-grid) {
+    grid-template-columns: minmax(15rem, 19rem) minmax(31rem, 1fr) minmax(14.25rem, 17.25rem);
+    gap: clamp(1rem, 1.6vw, 1.75rem);
+    width: calc(100% - 2rem);
+    max-width: 105rem;
   }
 }
 

@@ -3,7 +3,10 @@
     <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Meng Xu (许萌)" width="640" height="640" decoding="async" fetchpriority="high" itemprop="image">
   </div>
   <div class="profile-card__content">
-    <h2 class="profile-card__name" itemprop="name">Meng Xu (许萌)</h2>
+    <h2 class="profile-card__name">
+      <span itemprop="name">Meng Xu (许萌)</span>
+      {% if page.permalink == '/' %}<span class="profile-card__talent-badge">国家级青年人才</span>{% endif %}
+    </h2>
     <p class="profile-card__pronouns">she/her</p>
     <p class="profile-card__bio" itemprop="description">Professor researching AI scheduling and evolutionary computation</p>
   </div>
