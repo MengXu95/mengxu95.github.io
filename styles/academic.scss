@@ -100,13 +100,13 @@ body {
 }
 
 .profile-card__name {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.38rem 0.5rem;
-  align-items: center;
   color: var(--mx-ink);
   font-size: 1.24rem;
   letter-spacing: -0.015em;
+}
+
+.profile-card__talent {
+  margin: 0.22rem 0 0.4rem;
 }
 
 .profile-card__talent-badge {
@@ -126,8 +126,8 @@ body {
 }
 
 @media (min-width: 64em) {
-  .profile-card__name {
-    justify-content: center;
+  .profile-card__talent {
+    text-align: center;
   }
 }
 
