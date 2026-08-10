@@ -6,9 +6,9 @@
   var SVG_NAMESPACE = "http://www.w3.org/2000/svg";
   var MOVE_SUCCESS_RATE = 0.9;
   var CLIMBER_OFFSET = 10;
-  var SHARED_COUNTER_URL = "https://api.counterapi.dev/v1/mengxu95-github-io/climbing-5-12a-successes/up";
-  var COMPLETION_NUMBER_KEY = "mx-climb-5-12a-completion-number-v1";
-  var LOCAL_COUNTER_KEY = "mx-climb-5-12a-local-counter-v1";
+  var SHARED_COUNTER_URL = "https://api.counterapi.dev/v1/mengxu95-github-io/climbing-5-12c-successes/up";
+  var COMPLETION_NUMBER_KEY = "mx-climb-5-12c-completion-number-v1";
+  var LOCAL_COUNTER_KEY = "mx-climb-5-12c-local-counter-v1";
 
   var route = ["r0", "r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8"];
   var choices = [
@@ -375,7 +375,7 @@
       busy = true;
       var correctHoldId = route[currentStep + 1];
       if (holdId !== correctHoldId) {
-        fail("That hold takes you off the 5.12A line.");
+        fail("That hold takes you off the 5.12C line.");
         return;
       }
 
