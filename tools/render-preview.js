@@ -68,7 +68,7 @@ function renderVariables(text, page, content) {
   text = text.replace(/{{ page\.url \| absolute_url }}/g, canonical);
   text = text.replace(/{{ page\.excerpt \| default: site\.description \| strip_html \| escape }}/g, escapeHtml(description));
   text = text.replace(/{{ page\.seo_title \| default: page\.title \| default: site\.title \| escape }}/g, escapeHtml(page.seo_title || page.title || "Meng Xu"));
-  text = text.replace(/{{ '\/assets\/profile\.jpg' \| absolute_url }}/g, "https://mengxu95.github.io/assets/profile.jpg");
+  text = text.replace(/{{ '\/assets\/photo-Meng\.jpg' \| absolute_url }}/g, "https://mengxu95.github.io/assets/photo-Meng.jpg");
   text = text.replace(/{{ '([^']+)' \| relative_url }}/g, "$1");
   text = text.replace(/{{ site\.time \| date: '%Y' }}/g, String(new Date().getFullYear()));
   text = text.replace(/{{ page\.redirect_to \| relative_url }}/g, page.redirect_to || "/");
@@ -111,7 +111,7 @@ fs.readdirSync(path.join(root, "content"))
 
 fs.mkdirSync(path.join(output, "assets"), { recursive: true });
 fs.mkdirSync(path.join(output, "scripts"), { recursive: true });
-fs.copyFileSync(path.join(root, "assets", "profile.jpg"), path.join(output, "assets", "profile.jpg"));
+fs.copyFileSync(path.join(root, "assets", "photo-Meng.jpg"), path.join(output, "assets", "photo-Meng.jpg"));
 fs.copyFileSync(path.join(root, "assets", "favicon.svg"), path.join(output, "assets", "favicon.svg"));
 fs.copyFileSync(
   path.join(root, "assets", "climbing-character.png"),
