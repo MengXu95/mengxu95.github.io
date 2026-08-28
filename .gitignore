@@ -17,3 +17,9 @@ package-lock.json
 
 # Local curriculum vitae source
 CV2026.tex
+
+# Local reference document
+Reference.md
+
+# Local personal CV document
+My CV.md
