@@ -4,11 +4,8 @@
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   var SVG_NAMESPACE = "http://www.w3.org/2000/svg";
-  var MOVE_SUCCESS_RATE = 0.9;
-  var CLIMBER_OFFSET = 10;
-  var SHARED_COUNTER_URL = "https://api.counterapi.dev/v1/mengxu95-github-io/climbing-5-12c-successes/up";
-  var COMPLETION_NUMBER_KEY = "mx-climb-5-12c-completion-number-v1";
-  var LOCAL_COUNTER_KEY = "mx-climb-5-12c-local-counter-v1";
+  var LOCAL_COUNTER_KEY = "mx-climb-5-12c-sends-v2";
+  var sessionCompletions = 0;
 
   var route = ["r0", "r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8"];
   var choices = [
@@ -23,33 +20,27 @@
   ];
 
   var holds = [
-    { id: "r0", x: 146, y: 602, color: "#27877e", shape: "jug", rotation: -6, route: true, label: "deep teal starting" },
-    { id: "r1", x: 202, y: 548, color: "#cf654c", shape: "horn", rotation: 18, route: true, label: "terracotta" },
-    { id: "r2", x: 116, y: 482, color: "#4169a9", shape: "edge", rotation: -12, route: true, label: "cobalt" },
-    { id: "r3", x: 188, y: 414, color: "#66884e", shape: "sloper", rotation: 9, route: true, label: "moss green" },
-    { id: "r4", x: 92, y: 345, color: "#c76078", shape: "pinch", rotation: -20, route: true, label: "dusty rose" },
-    { id: "r5", x: 160, y: 279, color: "#d2a536", shape: "pocket", rotation: 7, route: true, label: "mustard" },
-    { id: "r6", x: 224, y: 211, color: "#875b91", shape: "blob", rotation: 14, route: true, label: "plum" },
-    { id: "r7", x: 143, y: 142, color: "#27877e", shape: "volume", rotation: -9, route: true, label: "deep teal" },
-    { id: "r8", x: 162, y: 67, color: "#66884e", shape: "jug", rotation: 3, route: true, label: "moss green finishing" },
-    { id: "d1", x: 73, y: 548, color: "#875b91", shape: "pocket", rotation: -18, label: "plum" },
-    { id: "d2", x: 244, y: 481, color: "#cf654c", shape: "blob", rotation: 10, label: "terracotta" },
-    { id: "d3", x: 54, y: 414, color: "#27877e", shape: "edge", rotation: 15, label: "deep teal" },
-    { id: "d4", x: 238, y: 345, color: "#d2a536", shape: "volume", rotation: -8, label: "mustard" },
-    { id: "d5", x: 77, y: 275, color: "#4169a9", shape: "horn", rotation: 12, label: "cobalt" },
-    { id: "d6", x: 247, y: 263, color: "#cf654c", shape: "crimp", rotation: -15, label: "terracotta" },
-    { id: "d7", x: 61, y: 183, color: "#c76078", shape: "pinch", rotation: 22, label: "dusty rose" },
-    { id: "d8", x: 235, y: 125, color: "#875b91", shape: "sloper", rotation: -12, label: "plum" },
-    { id: "x1", x: 35, y: 623, color: "#d2a536", shape: "edge", rotation: 7, label: "mustard" },
-    { id: "x2", x: 264, y: 586, color: "#66884e", shape: "horn", rotation: -20, label: "moss green" },
-    { id: "x3", x: 44, y: 500, color: "#c76078", shape: "pocket", rotation: 16, label: "dusty rose" },
-    { id: "x4", x: 274, y: 428, color: "#4169a9", shape: "volume", rotation: -10, label: "cobalt" },
-    { id: "x5", x: 39, y: 329, color: "#cf654c", shape: "crimp", rotation: 8, label: "terracotta" },
-    { id: "x6", x: 269, y: 315, color: "#66884e", shape: "blob", rotation: -16, label: "moss green" },
-    { id: "x7", x: 34, y: 235, color: "#c76078", shape: "sloper", rotation: 11, label: "dusty rose" },
-    { id: "x8", x: 275, y: 174, color: "#d2a536", shape: "pinch", rotation: -13, label: "mustard" },
-    { id: "x9", x: 42, y: 104, color: "#4169a9", shape: "edge", rotation: 18, label: "cobalt" },
-    { id: "x10", x: 267, y: 74, color: "#875b91", shape: "jug", rotation: -4, label: "plum" }
+    { id: "r0", x: 174, y: 420, color: "#27877e", label: "deep teal", shape: "jug", rotation: -6, route: true },
+    { id: "r1", x: 216, y: 378, color: "#cf654c", label: "terracotta", shape: "horn", rotation: 18, route: true },
+    { id: "r2", x: 149, y: 333, color: "#4169a9", label: "cobalt", shape: "edge", rotation: -12, route: true },
+    { id: "r3", x: 208, y: 288, color: "#66884e", label: "moss green", shape: "sloper", rotation: 9, route: true },
+    { id: "r4", x: 140, y: 244, color: "#c76078", label: "dusty rose", shape: "pinch", rotation: -20, route: true },
+    { id: "r5", x: 183, y: 199, color: "#d2a536", label: "mustard", shape: "pocket", rotation: 7, route: true },
+    { id: "r6", x: 222, y: 153, color: "#875b91", label: "plum", shape: "blob", rotation: 14, route: true },
+    { id: "r7", x: 161, y: 110, color: "#27877e", label: "deep teal", shape: "volume", rotation: -9, route: true },
+    { id: "r8", x: 183, y: 62, color: "#66884e", label: "moss green", shape: "jug", rotation: 3, route: true },
+    { id: "d1", x: 86, y: 382, color: "#875b91", label: "plum", shape: "pocket", rotation: -18 },
+    { id: "d2", x: 273, y: 332, color: "#cf654c", label: "terracotta", shape: "blob", rotation: 10 },
+    { id: "d3", x: 72, y: 286, color: "#27877e", label: "deep teal", shape: "edge", rotation: 15 },
+    { id: "d4", x: 262, y: 245, color: "#d2a536", label: "mustard", shape: "volume", rotation: -8 },
+    { id: "d5", x: 79, y: 198, color: "#4169a9", label: "cobalt", shape: "horn", rotation: 12 },
+    { id: "d6", x: 112, y: 153, color: "#cf654c", label: "terracotta", shape: "crimp", rotation: -15 },
+    { id: "d7", x: 276, y: 104, color: "#c76078", label: "dusty rose", shape: "pinch", rotation: 22 },
+    { id: "d8", x: 92, y: 60, color: "#875b91", label: "plum", shape: "sloper", rotation: -12 },
+    { id: "x1", x: 47, y: 465, color: "#d2a536", label: "mustard", shape: "edge", rotation: 7 },
+    { id: "x2", x: 272, y: 433, color: "#66884e", label: "moss green", shape: "horn", rotation: -20 },
+    { id: "x3", x: 39, y: 338, color: "#c76078", label: "dusty rose", shape: "pocket", rotation: 16 },
+    { id: "x4", x: 35, y: 126, color: "#4169a9", label: "cobalt", shape: "volume", rotation: -10 }
   ];
 
   var holdPaths = {
@@ -92,8 +83,8 @@
 
   function readStoredNumber(key) {
     try {
-      var value = parseInt(window.localStorage.getItem(key), 10);
-      return Number.isFinite(value) && value > 0 ? value : null;
+      var value = Number(window.localStorage.getItem(key));
+      return Number.isSafeInteger(value) && value > 0 ? value : null;
     } catch (error) {
       return null;
     }
@@ -102,31 +93,47 @@
   function storeNumber(key, value) {
     try {
       window.localStorage.setItem(key, String(value));
+      return true;
     } catch (error) {
-      return;
+      return false;
     }
   }
 
   function localCompletionNumber() {
+    sessionCompletions += 1;
     var nextNumber = (readStoredNumber(LOCAL_COUNTER_KEY) || 0) + 1;
-    storeNumber(LOCAL_COUNTER_KEY, nextNumber);
-    return nextNumber;
+    var persistent = storeNumber(LOCAL_COUNTER_KEY, nextNumber);
+    return { number: persistent ? nextNumber : sessionCompletions, persistent: persistent };
   }
 
-  function fetchCompletionNumber() {
-    var existingNumber = readStoredNumber(COMPLETION_NUMBER_KEY);
-    if (existingNumber) {
-      return Promise.resolve(existingNumber);
+  function recordLocalCompletion() {
+    if (navigator.locks && typeof navigator.locks.request === "function") {
+      return navigator.locks.request(LOCAL_COUNTER_KEY, localCompletionNumber).catch(function () {
+        return localCompletionNumber();
+      });
     }
+    return Promise.resolve(localCompletionNumber());
+  }
 
+  function fetchCompletionNumber(sharedCounterUrl) {
+    var localCompletion = recordLocalCompletion();
+    if (!sharedCounterUrl) {
+      return localCompletion.then(function (completion) {
+        return { shared: null, local: completion.number, persistent: completion.persistent, configured: false };
+      });
+    }
     var controller = typeof AbortController === "function" ? new AbortController() : null;
-    var timeout = window.setTimeout(function () {
-      if (controller) {
-        controller.abort();
-      }
-    }, 1800);
+    var timer;
+    var timeout = new Promise(function (resolve) {
+      timer = window.setTimeout(function () {
+        resolve(null);
+        if (controller) controller.abort();
+      }, 1800);
+    });
 
-    return fetch(SHARED_COUNTER_URL, controller ? { signal: controller.signal } : {})
+    var sharedCompletion = Promise.resolve().then(function () {
+      return fetch(sharedCounterUrl, { cache: "no-store", signal: controller ? controller.signal : undefined });
+    })
       .then(function (response) {
         if (!response.ok) {
           throw new Error("Counter unavailable");
@@ -134,21 +141,20 @@
         return response.json();
       })
       .then(function (payload) {
-        var number = Number(payload.count || payload.value);
-        if (!Number.isFinite(number) || number < 1) {
+        var number = Number(payload.count == null ? payload.value : payload.count);
+        if (!Number.isSafeInteger(number) || number < 1) {
           throw new Error("Invalid counter response");
         }
-        storeNumber(COMPLETION_NUMBER_KEY, number);
         return number;
       })
       .catch(function () {
-        var number = localCompletionNumber();
-        storeNumber(COMPLETION_NUMBER_KEY, number);
-        return number;
-      })
-      .then(function (number) {
-        window.clearTimeout(timeout);
-        return number;
+        return null;
+      });
+
+    return Promise.all([localCompletion, Promise.race([sharedCompletion, timeout])])
+      .then(function (completions) {
+        window.clearTimeout(timer);
+        return { shared: completions[1], local: completions[0].number, persistent: completions[0].persistent, configured: true };
       });
   }
 
@@ -166,6 +172,9 @@
     var resultTitle = game.querySelector("[data-climb-result-title]");
     var resultMessage = game.querySelector("[data-climb-result-message]");
     var confetti = game.querySelector("[data-climb-confetti]");
+    var count = game.querySelector("[data-climb-count]");
+    var countLabel = game.querySelector("[data-climb-count-label]");
+    var trail = game.querySelector("[data-climb-trail]");
     var restartButtons = game.querySelectorAll("[data-climb-restart], [data-climb-reset]");
     var holdElements = new Map();
     var holdData = new Map();
@@ -174,6 +183,7 @@
     var ended = false;
     var roundId = 0;
     var pendingTimers = new Set();
+    var keyboardMove = false;
 
     function scheduleForCurrentRound(callback, delay) {
       var scheduledRound = roundId;
@@ -204,11 +214,11 @@
         "role": "button",
         "tabindex": "-1",
         "aria-disabled": "true",
-        "aria-label": hold.label + " climbing hold" + (hold.route ? " on the marked route" : "")
+        "aria-label": hold.label + " " + hold.shape + " hold" + (hold.route ? ", marked route " + (hold.id === "r0" ? "start" : "move " + route.indexOf(hold.id)) : "")
       });
       group.style.setProperty("--hold-color", hold.color);
 
-      group.appendChild(createSvgElement("circle", { "class": "climb-hold__hit", "r": "23" }));
+      group.appendChild(createSvgElement("circle", { "class": "climb-hold__hit", "r": "25" }));
       if (hold.route) {
         group.appendChild(createSvgElement("path", { "class": "climb-hold__tape", "d": "M-7 17h14l-2 5H-5Z" }));
       }
@@ -229,6 +239,14 @@
         "pathLength": "1"
       }));
       group.appendChild(createSvgElement("circle", { "class": "climb-hold__bolt", "r": "1.8" }));
+      if (hold.route) {
+        var number = createSvgElement("text", {
+          "class": "climb-hold__number", "x": "-28", "y": "4",
+          "text-anchor": "middle", "transform": "rotate(" + (-hold.rotation) + ")", "aria-hidden": "true"
+        });
+        number.textContent = String(route.indexOf(hold.id)).padStart(2, "0");
+        group.appendChild(number);
+      }
 
       holdsLayer.appendChild(group);
       holdElements.set(hold.id, group);
@@ -237,12 +255,36 @@
     climber.removeAttribute("transform");
 
     function climberTransform(hold) {
-      return "translate(" + hold.x + "px, " + (hold.y + CLIMBER_OFFSET) + "px)";
+      return "translate(" + hold.x + "px, " + hold.y + "px)";
     }
 
-    function updateRope(hold) {
-      var harnessY = hold.y + CLIMBER_OFFSET + 13;
-      rope.setAttribute("d", "M158 28C176 142 " + (hold.x + 18) + " " + (harnessY - 68) + " " + hold.x + " " + harnessY);
+    function updateRope(hold, bodyX) {
+      rope.setAttribute("d", "M183 24Q" + (hold.x + bodyX + 24) + " " + (hold.y * 0.55) + " " + (hold.x + bodyX) + " " + (hold.y + 61));
+    }
+
+    function updatePose(hold) {
+      var previous = holdData.get(route[Math.max(0, currentStep - 1)]);
+      var foothold = holdData.get(route[Math.max(0, currentStep - 2)]);
+      var handX = currentStep ? previous.x - hold.x : -38;
+      var handY = currentStep ? previous.y - hold.y : 28;
+      var bodyX = handX * 0.36;
+      var footX = currentStep > 1 ? foothold.x - hold.x : bodyX - 24;
+      var footY = currentStep > 1 ? foothold.y - hold.y : 109;
+      var freeFootX = bodyX + 30;
+      game.querySelector("[data-climb-body]").setAttribute("transform", "translate(" + bodyX + " 0)");
+      game.querySelector("[data-climb-arm-front]").setAttribute("d", "M" + (bodyX + 9) + " 35Q" + (bodyX + 18) + " 17 0 0");
+      game.querySelector("[data-climb-arm-back]").setAttribute("d", "M" + (bodyX - 9) + " 35Q" + (handX - 2) + " 58 " + handX + " " + handY);
+      game.querySelector("[data-climb-hand-back]").setAttribute("cx", String(handX));
+      game.querySelector("[data-climb-hand-back]").setAttribute("cy", String(handY));
+      game.querySelector("[data-climb-leg-back]").setAttribute("d", "M" + (bodyX - 6) + " 63Q" + (bodyX - 21) + " 84 " + footX + " " + footY);
+      game.querySelector("[data-climb-leg-front]").setAttribute("d", "M" + (bodyX + 6) + " 63Q" + (bodyX + 37) + " 72 " + freeFootX + " 105");
+      game.querySelector("[data-climb-shoe-back]").setAttribute("d", "M" + footX + " " + footY + "l-7 3h-4");
+      game.querySelector("[data-climb-shoe-front]").setAttribute("d", "M" + freeFootX + " 105l6 3h4");
+      updateRope(hold, bodyX);
+      trail.setAttribute("d", route.slice(0, currentStep + 1).map(function (holdId, index) {
+        var point = holdData.get(holdId);
+        return (index ? "L" : "M") + point.x + " " + point.y;
+      }).join(" "));
     }
 
     function placeClimber(hold, animate) {
@@ -256,7 +298,7 @@
         climber.animate([
           { transform: previousTransform },
           { transform: nextTransform, offset: 0.78 },
-          { transform: "translate(" + hold.x + "px, " + (hold.y + CLIMBER_OFFSET + 3) + "px)" },
+          { transform: "translate(" + hold.x + "px, " + (hold.y + 3) + "px)" },
           { transform: nextTransform }
         ], {
           duration: 560,
@@ -266,7 +308,7 @@
       }
 
       climber.style.transform = nextTransform;
-      updateRope(hold);
+      updatePose(hold);
     }
 
     function clearChoices() {
@@ -285,13 +327,17 @@
         element.setAttribute("tabindex", "0");
         element.setAttribute("aria-disabled", "false");
       });
-      prompt.textContent = "Choose the next hold";
+      prompt.textContent = currentStep < 3 ? "The opening moves" : currentStep < 6 ? "Through the crux" : "The final reach";
+      if (keyboardMove) {
+        holdElements.get(choices[currentStep][0]).focus({ preventScroll: true });
+      }
     }
 
     function updateProgress() {
       var totalMoves = route.length - 1;
-      status.textContent = currentStep < totalMoves ? "Move " + (currentStep + 1) + " of " + totalMoves : "Route complete";
+      status.textContent = currentStep + " / " + totalMoves + " moves";
       progress.setAttribute("aria-valuenow", String(currentStep));
+      progress.setAttribute("aria-valuetext", currentStep + " of " + totalMoves + " moves completed");
       progressFill.style.width = (currentStep / totalMoves * 100) + "%";
     }
 
@@ -302,13 +348,16 @@
       resultTitle.textContent = title;
       resultMessage.textContent = message;
       result.hidden = false;
+      if (keyboardMove) {
+        result.querySelector("button").focus({ preventScroll: true });
+      }
     }
 
     function celebrate() {
       if (reduceMotion) return;
-      var colors = ["#cf654c", "#27877e", "#4169a9", "#d2a536", "#875b91", "#c76078", "#66884e"];
+      var colors = ["#d56553", "#26786c", "#e9bf63", "#fafcfb"];
       confetti.replaceChildren();
-      for (var index = 0; index < 52; index += 1) {
+      for (var index = 0; index < 36; index += 1) {
         var piece = document.createElement("span");
         piece.style.setProperty("--confetti-x", (Math.random() * 100) + "%");
         piece.style.setProperty("--confetti-drift", ((Math.random() - 0.5) * 90) + "px");
@@ -332,20 +381,24 @@
       var currentHold = holdData.get(route[currentStep]);
       var currentTransform = climberTransform(currentHold);
       if (!reduceMotion && typeof climber.animate === "function") {
+        var caughtPosition = { x: currentHold.x + 8, y: Math.min(currentHold.y + 32, 440) };
+        var previousHold = holdData.get(route[Math.max(0, currentStep - 1)]);
+        var bodyX = (currentStep ? previousHold.x - currentHold.x : -38) * 0.36;
+        updateRope(caughtPosition, bodyX);
         climber.animate([
           { transform: currentTransform },
-          { transform: "translate(" + (currentHold.x + 12) + "px, " + (currentHold.y + 125) + "px) rotate(16deg)" }
+          { transform: climberTransform(caughtPosition) }
         ], {
-          duration: 520,
+          duration: 420,
           easing: "cubic-bezier(.55,.05,.8,.52)",
           fill: "forwards"
         });
       }
 
       scheduleForCurrentRound(function () {
-        showResult("failure", "Take a breath", "Almost!", message + " Reset and try the sequence again.");
+        showResult("failure", "Back on the rope", "One more try.", message + " " + currentStep + " of 8 moves secured.");
         busy = false;
-      }, 430);
+      }, reduceMotion ? 0 : 430);
     }
 
     function win() {
@@ -355,14 +408,22 @@
       prompt.textContent = "Route sent";
       wall.classList.add("is-complete");
       celebrate();
-      showResult("success", "Route complete", "Top!", "正在记录你的完攀序号...");
+      showResult("success", "8 / 8 moves", "Sent.", "正在记录本次登顶...");
 
       var winningRound = roundId;
-      fetchCompletionNumber().then(function (number) {
+      var completionRequest = fetchCompletionNumber(game.getAttribute("data-climb-counter-url"));
+      count.textContent = String(readStoredNumber(LOCAL_COUNTER_KEY) || sessionCompletions);
+      completionRequest.then(function (completion) {
+        count.textContent = String(readStoredNumber(LOCAL_COUNTER_KEY) || sessionCompletions);
+        countLabel.textContent = completion.persistent ? "Sends in this browser" : "Sends this session";
         if (winningRound !== roundId || !ended) {
           return;
         }
-        resultMessage.textContent = "你是第 " + number + " 个成功完攀的攀岩人，祝你 Paper 必中！";
+        var localMessage = (completion.persistent ? "本浏览器" : "本次会话") + "已登顶 " + completion.local + " 次。";
+        var sharedMessage = completion.shared === null
+          ? (completion.configured ? "全站计数暂不可用。" : "")
+          : "全站累计 " + completion.shared + " 次登顶。";
+        resultMessage.textContent = sharedMessage + localMessage + "祝你 Paper 必中！";
         busy = false;
       });
     }
@@ -375,12 +436,7 @@
       busy = true;
       var correctHoldId = route[currentStep + 1];
       if (holdId !== correctHoldId) {
-        fail("That hold takes you off the 5.12C line.");
-        return;
-      }
-
-      if (Math.random() > MOVE_SUCCESS_RATE) {
-        fail("The hold spins and the grip does not settle.");
+        fail("That hold is off the marked route.");
         return;
       }
 
@@ -396,14 +452,15 @@
       updateProgress();
       prompt.textContent = "Hold secured";
 
+      if (currentStep === route.length - 1) {
+        win();
+        return;
+      }
+
       scheduleForCurrentRound(function () {
-        if (currentStep === route.length - 1) {
-          win();
-        } else {
-          busy = false;
-          activateChoices();
-        }
-      }, 570);
+        busy = false;
+        activateChoices();
+      }, reduceMotion ? 0 : 570);
     }
 
     function resetGame() {
@@ -429,6 +486,7 @@
     holdsLayer.addEventListener("click", function (event) {
       var hold = event.target.closest("[data-hold-id]");
       if (hold) {
+        keyboardMove = false;
         chooseHold(hold.getAttribute("data-hold-id"));
       }
     });
@@ -440,14 +498,24 @@
       var hold = event.target.closest("[data-hold-id]");
       if (hold) {
         event.preventDefault();
+        keyboardMove = true;
         chooseHold(hold.getAttribute("data-hold-id"));
       }
     });
 
     restartButtons.forEach(function (button) {
-      button.addEventListener("click", resetGame);
+      button.addEventListener("click", function (event) {
+        keyboardMove = event.detail === 0;
+        resetGame();
+      });
     });
 
+    count.textContent = String(readStoredNumber(LOCAL_COUNTER_KEY) || 0);
+    window.addEventListener("storage", function (event) {
+      if (event.key === LOCAL_COUNTER_KEY || event.key === null) {
+        count.textContent = String(readStoredNumber(LOCAL_COUNTER_KEY) || 0);
+      }
+    });
     resetGame();
   }
 

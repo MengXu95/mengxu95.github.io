@@ -7,6 +7,12 @@
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve --livereload",
     "check": "node tools/check-site.js",
+    "check:game": "npm run preview && node --test tools/check-climbing-game.js",
     "preview": "node tools/render-preview.js"
+  },
+  "devDependencies": {
+    "@fontsource-variable/source-sans-3": "^5.3.0",
+    "lucide-static": "^1.47.0",
+    "playwright": "^1.63.0"
   }
 }

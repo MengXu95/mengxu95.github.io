@@ -1,82 +1,102 @@
-<aside class="climbing-rail" aria-labelledby="climb-game-title" data-climbing-game>
+<aside id="climb-game" class="climbing-rail" aria-labelledby="climb-game-title" tabindex="-1" data-climbing-game data-climb-counter-url="">
   <section class="climb-game">
     <header class="climb-game__header">
       <div>
         <p>Between Papers</p>
-        <h2 id="climb-game-title">The 5.12C Send</h2>
+        <h2 id="climb-game-title">The 5.12c Send</h2>
       </div>
-      <span class="climb-game__grade">5.12C</span>
+      <span class="climb-game__grade" title="Route grade">5.12c</span>
     </header>
 
-    <p class="climb-game__intro">A tiny climbing game. Pick a highlighted hold and climb to the top.</p>
+    <div class="climb-game__stats">
+      <div><span>Route</span><strong>Summit line <span class="climb-game__swatch" aria-hidden="true"></span></strong></div>
+      <div><span data-climb-count-label>Sends in this browser</span><strong data-climb-count>0</strong></div>
+    </div>
 
     <div class="climb-game__progress-row">
-      <span data-climb-status>Move 1 of 8</span>
+      <span data-climb-status>0 / 8 moves</span>
       <div class="climb-game__progress" role="progressbar" aria-label="Route progress" aria-valuemin="0" aria-valuemax="8" aria-valuenow="0" data-climb-progress>
         <span></span>
       </div>
-      <span class="climb-game__chance" title="Each correct move has a 90% chance of holding">90% grip</span>
     </div>
 
     <div class="climb-wall" data-climb-wall>
-      <svg viewBox="0 0 300 660" role="img" aria-labelledby="climb-wall-title climb-wall-description" preserveAspectRatio="xMidYMid meet">
-        <title id="climb-wall-title">Interactive 5.12C climbing route</title>
-        <desc id="climb-wall-description">A climber follows a colorful indoor route by choosing the next reachable hold.</desc>
+      <svg viewBox="0 0 320 560" role="group" aria-labelledby="climb-wall-title climb-wall-description" preserveAspectRatio="xMidYMid meet">
+        <title id="climb-wall-title">5.12c multicolor climbing route</title>
+        <desc id="climb-wall-description">Follow the numbered holds with white route tape to the summit. Each move offers two reachable holds. Select a hold with a click, or use Tab and Enter or Space. Off-route holds end the attempt.</desc>
         <defs>
-          <pattern id="climb-wall-texture" width="34" height="34" patternUnits="userSpaceOnUse">
-            <path d="M0 10L10 0M22 34L34 22" fill="none" stroke="currentColor" stroke-width="0.7" opacity="0.22"></path>
-            <circle cx="25" cy="8" r="1.2" fill="currentColor" opacity="0.18"></circle>
+          <pattern id="climb-wall-texture" width="32" height="32" patternUnits="userSpaceOnUse">
+            <circle cx="16" cy="16" r="1.25" fill="currentColor" opacity="0.3"></circle>
+            <path d="M3 6h2M26 24h1" stroke="currentColor" stroke-width="0.6" opacity="0.2"></path>
           </pattern>
           <filter id="climb-hold-shadow" x="-50%" y="-50%" width="200%" height="200%">
-            <feDropShadow dx="0" dy="2" stdDeviation="1.6" flood-color="#263238" flood-opacity="0.28"></feDropShadow>
+            <feDropShadow dx="0" dy="2.5" stdDeviation="1.6" flood-color="#34433f" flood-opacity="0.2"></feDropShadow>
           </filter>
         </defs>
 
-        <rect class="climb-wall__surface" x="1" y="1" width="298" height="658" rx="4"></rect>
-        <rect class="climb-wall__texture" x="1" y="1" width="298" height="658" rx="4"></rect>
-        <g class="climb-wall__cracks" aria-hidden="true">
-          <path d="M24 108l22 18-11 29 18 17"></path>
-          <path d="M267 244l-18 13 8 23-20 18"></path>
-          <path d="M42 442l18 12-8 26 14 15"></path>
-          <path d="M238 540l-17 14 9 24-17 16"></path>
+        <rect class="climb-wall__surface" width="320" height="560"></rect>
+        <g class="climb-wall__panels" aria-hidden="true">
+          <path d="M0 0H154L112 182L0 221Z"></path>
+          <path d="M320 159L254 239L320 351Z"></path>
+          <path d="M0 348L94 420L48 560H0Z"></path>
+          <path d="M320 414L214 492L252 560H320Z"></path>
         </g>
+        <rect class="climb-wall__texture" width="320" height="560" aria-hidden="true"></rect>
+        <path class="climb-wall__seam" d="M154 0L112 182L210 349L94 420L48 560M112 182L320 159M210 349L320 414" aria-hidden="true"></path>
+        <path class="climb-trail" data-climb-trail aria-hidden="true"></path>
         <g class="climb-wall__top" aria-hidden="true">
-          <path d="M132 18h52l-7 24h-38z"></path>
-          <text x="158" y="35" text-anchor="middle">TOP</text>
+          <path d="M173 17h20v13h-20z"></path>
+          <text x="183" y="44" text-anchor="middle">SUMMIT</text>
         </g>
-        <path class="climb-rope" data-climb-rope d="M158 28C176 142 168 480 150 640" aria-hidden="true"></path>
+        <g class="climb-wall__base" aria-hidden="true">
+          <path d="M0 540H320V560H0Z"></path>
+          <text x="16" y="526">01 / SUMMIT LINE</text>
+          <text x="300" y="526" text-anchor="end">5.12c</text>
+        </g>
+        <path class="climb-rope" data-climb-rope aria-hidden="true"></path>
         <g data-climb-holds></g>
 
-        <image
-          class="climb-girl"
-          data-climber
-          href="{{ '/assets/climbing-character.png' | relative_url }}"
-          x="-19"
-          y="-63"
-          width="38"
-          height="108"
-          preserveAspectRatio="xMidYMid meet"
-          aria-hidden="true">
-        </image>
+        <g class="climb-climber" data-climber aria-hidden="true">
+          <path class="climb-climber__leg climb-climber__leg--back" data-climb-leg-back></path>
+          <path class="climb-climber__leg" data-climb-leg-front></path>
+          <path class="climb-climber__shoe" data-climb-shoe-back></path>
+          <path class="climb-climber__shoe" data-climb-shoe-front></path>
+          <path class="climb-climber__arm climb-climber__arm--back" data-climb-arm-back></path>
+          <path class="climb-climber__arm" data-climb-arm-front></path>
+          <g data-climb-body>
+            <path class="climb-climber__hair" d="M-10 17Q-23 13-20 31L-28 40Q-11 41-12 26Z"></path>
+            <path class="climb-climber__skin" d="M-5 25H5L7 36H-7Z"></path>
+            <path class="climb-climber__shirt" d="M-9 32Q0 28 9 32L15 58Q2 66-14 59L-12 44Z"></path>
+            <path class="climb-climber__shirt-shade" d="M5 33L10 57L-9 60L15 61L10 34Z"></path>
+            <path class="climb-climber__skin" d="M-10 17Q-9 7 1 9Q13 10 11 20L8 26Q-1 33-8 24Z"></path>
+            <path class="climb-climber__hair" d="M-11 20Q-16 7-4 4Q11 0 13 14L6 16L0 11L-5 22Z"></path>
+            <path class="climb-climber__harness" d="M-13 58Q0 63 13 58M-9 63L-4 72H4L10 63"></path>
+            <path class="climb-climber__bag" d="M-14 61L-22 64L-20 78L-10 76Z"></path>
+            <path class="climb-climber__bag-rim" d="M-22 64L-13 62"></path>
+          </g>
+          <circle class="climb-climber__hand" r="4.2" cx="0" cy="0"></circle>
+          <circle class="climb-climber__hand" r="4" data-climb-hand-back></circle>
+        </g>
       </svg>
 
       <div class="climb-confetti" aria-hidden="true" data-climb-confetti></div>
-      <div class="climb-result" role="status" aria-live="polite" data-climb-result hidden>
+      <div class="climb-result" role="status" aria-live="polite" aria-atomic="true" data-climb-result hidden>
         <p data-climb-result-kicker>Route complete</p>
-        <h3 data-climb-result-title>Top!</h3>
+        <h3 data-climb-result-title>Sent.</h3>
         <p data-climb-result-message></p>
         <button type="button" data-climb-restart>
-          <span aria-hidden="true">↻</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path></svg>
           <span>Climb again</span>
         </button>
       </div>
     </div>
 
     <div class="climb-game__footer">
-      <p data-climb-prompt aria-live="polite">Choose the next hold</p>
+      <p data-climb-prompt aria-live="polite">The opening moves</p>
       <button type="button" class="climb-game__reset" data-climb-reset aria-label="Reset climbing route" title="Reset route">
-        <span aria-hidden="true">↻</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path></svg>
       </button>
     </div>
+    <noscript><p class="climb-game__unavailable">JavaScript is required for the climbing game.</p></noscript>
   </section>
 </aside>
